@@ -88,8 +88,9 @@ i.fas.fa-envelope {
 }
 
 .right-nav-items {
-	margin-left: 25px;
-	color: #ffff;
+    margin-left: 25px;
+    color: #ffff;
+    font-size: 16px !important;
 }
 
 a.navbar-brand img {
@@ -111,12 +112,12 @@ nav.navbar.navbar-expand-lg.first-navbar {
 }
 
 .first-nav-items {
-	font-family: 'Luckiest Guy', cursive;
+    font-family: 'Luckiest Guy', cursive !important;
 }
 
 li.nav-item {
     padding: 0px 6px;
-    font-size: 16px;
+    font-size: 14px !important;
     font-weight: 400;
     line-height: 20px;
 }
@@ -129,7 +130,7 @@ li.nav-item {
     font-family: 'Poppins';
     font-style: normal;
     font-weight: 700;
-    font-size: 16px;
+    font-size: 16px !important;
     line-height: 24px;
     display: flex;
     align-items: center;
