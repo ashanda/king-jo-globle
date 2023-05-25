@@ -111,9 +111,9 @@ nav.navbar.navbar-expand-lg.first-navbar {
 	width: 100%;
 }
 
-.first-nav-items {
+/* .first-nav-items {
     font-family: 'Luckiest Guy', cursive !important;
-}
+} */
 
 li.nav-item {
     padding: 0px 6px;
@@ -126,7 +126,7 @@ li.nav-item {
 }
 
 .middle-nav-items li {
-    font-family: 'Poppins', sans-serif;
+    /* font-family: 'Poppins', sans-serif; */
     font-style: normal;
     font-weight: 700;
     font-size: 16px !important;
