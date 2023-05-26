@@ -986,14 +986,14 @@ img.l-bg-img {
     position: absolute;
     max-width: 140px;
     top: -310px;
-    left: -62px;
+    left: 0px;
 }
 
 img.r-bg-img {
     position: absolute;
     max-width: 140px;
     top: -310px;
-    right: -27px;
+    right: 0px;
 }
 
 nav.navbar.navbar-expand-lg.first-navbar {
@@ -1279,6 +1279,20 @@ img.m-1 {
     font-style: normal;
     font-weight: 400;
     font-size: 11.50px;
+}
+
+img.r-bg-img {
+    position: absolute;
+    max-width: 140px;
+    top: -310px;
+    right: 0px !important;
+}
+
+img.l-bg-img {
+    position: absolute;
+    max-width: 140px;
+    top: -310px;
+    left: 0px !important;
 }
 
 
