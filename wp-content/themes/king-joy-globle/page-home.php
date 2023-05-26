@@ -134,7 +134,7 @@ get_header();  ?>
 
 
         <div class="container bottom-area">
-            <p class="main-heading">freshness & YUM YUM !!</p>
+            <p class="main-heading">FRESHNESS & YUM YUM !!</p>
 
             <div class="main-content-area">
                 <div class="row">

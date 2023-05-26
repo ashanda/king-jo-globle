@@ -73,6 +73,11 @@ ul {
 	padding: 0;
 }
 
+.row {
+    padding: 0 !important;
+    margin: 0 !important;
+}
+
 a {
 	text-decoration: none;
 }
@@ -149,10 +154,10 @@ li.shopping-items {
 }
 
 .hero-text-area {
-	padding-left: 70px;
-	margin-top: 260px;
-	position: relative;
-	margin-bottom: 70px;
+    padding-left: 70px;
+    margin-top: 190px;
+    position: relative;
+    margin-bottom: 70px;
 }
 
 p.main-test {
@@ -424,13 +429,13 @@ section#middle-content {
 }
 
 section#middle-content .container.bottom-area p.main-heading {
-	font-family: 'Luckiest Guy';
-	font-style: normal;
-	font-weight: 400;
-	font-size: 50px;
-	line-height: 117.69%;
-	text-align: center;
-	color: #FFFFFF;
+    font-family: 'Luckiest Guy';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 50px;
+    line-height: 117.69%;
+    text-align: center;
+    color: #FFFFFF;
 }
 
 section#middle-content .container.bottom-area .box-area {
@@ -1042,17 +1047,17 @@ img.rig-bg-img {
 }
 
 img.l-bg-img {
-	position: absolute;
-	max-width: 140px;
-	top: -310px;
-	left: -62px;
+    position: absolute;
+    max-width: 140px;
+    top: -310px;
+    left: 0px;
 }
 
 img.r-bg-img {
 	position: absolute;
 	max-width: 140px;
 	top: -310px;
-	right: -27px;
+	right: 0px;
 }
 
 nav.navbar.navbar-expand-lg.first-navbar {
@@ -1060,22 +1065,22 @@ nav.navbar.navbar-expand-lg.first-navbar {
 }
 
 section#Hero-Section {
-	background-image: url(inc/king-images/bannernew.png);
-	background-size: cover;
-	background-position: center right;
-	background-repeat: no-repeat;
-	width: 100%;
-	background-position-x: 286px;
-	background-position-y: -334px;
+    background-image: url(inc/king-images/bannernew.png);
+    background-size: cover;
+    background-position: center right;
+    background-repeat: no-repeat;
+    width: 100%;
+    background-position-x: 370px;
+    background-position-y: -334px;
 }
 
 img.b-1 {
-	position: absolute;
-	width: 100%;
-	max-width: 500px;
-	left: 34px;
-	height: auto;
-	top: 220px;
+    position: absolute;
+    width: 100%;
+    max-width: 500px;
+    left: 142px;
+    height: auto;
+    top: 234px;
 }
 
 .col-md-6.hero-right {
@@ -1083,57 +1088,57 @@ img.b-1 {
 }
 
 img.b-2 {
-	position: absolute;
-	bottom: 16px;
-	width: 100%;
-	max-width: 150px;
-	left: 24px;
-	transform: rotate(498deg);
+    position: absolute;
+    bottom: 94px;
+    width: 100%;
+    max-width: 150px;
+    left: 113px;
+    transform: rotate(484deg);
 }
 
 img.b-3 {
-	position: absolute;
-	top: 88px;
-	width: 100%;
-	max-width: 189px;
-	right: 233px;
-	transform: rotate(357deg);
+    position: absolute;
+    top: 104px;
+    width: 100%;
+    max-width: 189px;
+    right: 133px;
+    transform: rotate(357deg);
 }
 
 img.b-4 {
-	position: absolute;
-	top: 145px;
-	width: 100%;
-	max-width: 128px;
-	left: 85px;
-	transform: rotate(356deg);
+    position: absolute;
+    top: 125px;
+    width: 100%;
+    max-width: 128px;
+    left: 179px;
+    transform: rotate(356deg);
 }
 
 img.b-5 {
-	position: absolute;
-	top: 131px;
-	width: 100%;
-	max-width: 140px;
-	left: 5px;
-	transform: rotate(356deg);
+    position: absolute;
+    top: 113px;
+    width: 100%;
+    max-width: 140px;
+    left: 90px;
+    transform: rotate(356deg);
 }
 
 img.b-6 {
-	position: absolute;
-	bottom: -65px;
-	width: 100%;
-	max-width: 190px;
-	right: 313px;
-	transform: rotate(356deg);
+    position: absolute;
+    bottom: 15px;
+    width: 100%;
+    max-width: 190px;
+    right: 188px;
+    transform: rotate(356deg);
 }
 
 img.b-7 {
-	position: absolute;
-	bottom: 18px;
-	width: 100%;
-	max-width: 120px;
-	right: 192px;
-	transform: rotate(390deg);
+    position: absolute;
+    bottom: 101px;
+    width: 100%;
+    max-width: 120px;
+    right: 94px;
+    transform: rotate(390deg);
 }
 
 img.h-1 {
