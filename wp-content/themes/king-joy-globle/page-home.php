@@ -16,11 +16,11 @@ get_header();  ?>
                     </div>
                     <img class="h-1" src="<?php echo get_template_directory_uri(); ?>/inc/king-images/Vector 3.png" alt="">
                     <p class="main-test">FRUITS, VEGGIES & DRY ITEMS</p>
-                    <P class="main-description">Morbi eget congue lectus. Donec eleifend ultricies urna
-                        et
-                        euismod. Sed consectetur tellus eget odio aliquet, vel vestibulum tellus
-                        sollicitudin.
-                        Morbi maximus metus eu eros t<?php echo get_template_directory_uri(); ?>/incidunt</P>
+                    <P class="main-description">Morbi eget congue lectus. Donec eleifend ultricies urna et euismod. Sed
+                        consectetur tellus eget odio aliquet, vel vestibulum tellus sollicitudin. Morbi
+                        maximus metus eu eros tincidunt
+                        <!-- <?php echo get_template_directory_uri(); ?>/incidunt -->
+                    </P>
                     <button class="main-button"><a href="">Shop Now</a></button>
                     <img class="h-2" src="<?php echo get_template_directory_uri(); ?>/inc/king-images/Orange.png" alt="">
                     <img class="h-3" src="<?php echo get_template_directory_uri(); ?>/inc/king-images/Mint.png" alt="">
@@ -137,19 +137,20 @@ get_header();  ?>
             <p class="main-heading">FRESHNESS & YUM YUM !!</p>
 
             <div class="main-content-area">
-                <div class="row">
-                    <div class="col-md-7">
+                <div class="row fresh">
+                    <div class="col-lg-7 col-md-7 col-sm-12 col-xm-12">
                         <div class="box-area">
                             <p class="box-main-text">Why Kinjo Global?</p>
                             <p class="box-description">Morbi eget congue lectus. Donec eleifend ultricies urna
                                 et euismod. Sed consectetur tellus eget odio aliquet, vel vestibulum tellus
-                                sollicitudin. Morbi maximus metus eu eros t<?php echo get_template_directory_uri(); ?>/incidunt</p>
+                                sollicitudin. Morbi maximus metus eu eros tincidunt
+                                incidunt</p>
                             <button class="main-button box-btn"><a href="">Learn More</a></button>
                             <img class="box-image" src="<?php echo get_template_directory_uri(); ?>/inc/king-images/boximage.png" alt="">
                         </div>
                     </div>
 
-                    <div class="col-md-5">
+                    <div class="col-lg-5 col-md-5 col-sm-12 col-xm-12 slider-area-col">
                         <div class="slider-area">
                             <div class="wrapper">
                                 <div class="outer">
@@ -216,14 +217,14 @@ get_header();  ?>
 <div class="rectangle-box">
     <div class="container organic-rectangle">
         <div class="row rectangle">
-            <div class="col-md-6 left-side">
+            <div class="col-lg-6 col-md-6 col-sm-12 col-xm-12 left-side">
                 <div class="left-side-content">
                     <img class="organic-left-img" src="<?php echo get_template_directory_uri(); ?>/inc/king-images/fertilizer.png" alt="">
                     <p class="nature">Good for nature</p>
                 </div>
             </div>
 
-            <div class="col-md-6 right-side">
+            <div class="col-lg-6 col-md-6 col-sm-12 col-xm-12 col-md-6 right-side">
                 <div class="right-side-content">
                     <img class="organic-right-img" src="<?php echo get_template_directory_uri(); ?>/inc/king-images/organic.png" alt="">
                     <p class="organic">Good for nature</p>

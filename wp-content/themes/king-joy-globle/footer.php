@@ -85,7 +85,11 @@
     </div>
     <div class="row fooder-bottom">
         <div class="col-md-6 left-corner">
-            <p class="left">Copyright © 2023 <span>Kinjo</span> <?php echo get_template_directory_uri(); ?>/inc. All rights reserved.</p>
+            <p class="left">Copyright &copy;
+                 <script>document.write(new Date().getFullYear())</script>  
+            <span>Kinjo</span> 
+            <!-- <?php echo get_template_directory_uri(); ?> -->
+            inc. All rights reserved.</p>
         </div>
         <div class="col-md-6 right-corner">
             <span><a href="" class="active">Privacy Policy &nbsp;| &nbsp; </a></span>
