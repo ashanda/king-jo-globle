@@ -245,17 +245,20 @@ get_header();  ?>
             </div>
         </div>
 
-        <div id="myBtnContainer">
-            <button class="btn" onclick="filterSelection('all')">All</button>
-            <button class="btn" onclick="filterSelection('nature')"> Vegetables</button>
-            <button class="btn" onclick="filterSelection('cars')"> Fruits</button>
-            <button class="btn" onclick="filterSelection('people')"> Products</button>
+        <div class="btn-section">
+            <div id="myBtnContainer">
+                <button class="btn" onclick="filterSelection('all')">All</button>
+                <button class="btn" onclick="filterSelection('nature')"> Vegetables</button>
+                <button class="btn" onclick="filterSelection('cars')"> Fruits</button>
+                <button class="btn" onclick="filterSelection('people')"> Products</button>
+            </div>
         </div>
+
 
         <div class="main">
 
             <!-- Portfolio Gallery Grid -->
-            <div class="row">
+            <div class="row natu">
                 <div class="column nature">
                     <div class="items-details">
                         <div class="item-name">
@@ -518,7 +521,7 @@ get_header();  ?>
             <section class="testimonial-area">
                 <div class="container">
                     <div class="row">
-                        <div class="col-sm-12 col-md-8">
+                        <div class="col-xm-12 col-sm-12 col-md-8 col-lg-8">
                             <div class="testimonial-inner-section">
                                 <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel" data-bs-interval="3000">
                                     <!-- Added data-bs-interval attribute for autoplay with 3s interval -->
@@ -602,7 +605,7 @@ get_header();  ?>
 
                         </div>
 
-                        <div class="col-sm-12 col-md-4">
+                        <div class="col-xm-12 col-sm-12 col-md-4 col-lg-4">
                             <div class="testimonial-right-content">
                                 <img class="man" src="<?php echo get_template_directory_uri(); ?>/inc/king-images/man.png" alt="">
                             </div>

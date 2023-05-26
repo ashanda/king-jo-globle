@@ -74,8 +74,8 @@ ul {
 }
 
 .row {
-    padding: 0 !important;
-    margin: 0 !important;
+	padding: 0 !important;
+	margin: 0 !important;
 }
 
 a {
@@ -93,9 +93,9 @@ i.fas.fa-envelope {
 }
 
 .right-nav-items {
-    margin-left: 25px;
-    color: #ffff;
-    font-size: 16px !important;
+	margin-left: 25px;
+	color: #ffff;
+	font-size: 16px !important;
 }
 
 a.navbar-brand img {
@@ -121,24 +121,25 @@ nav.navbar.navbar-expand-lg.first-navbar {
 } */
 
 li.nav-item {
-    padding: 0px 6px;
-    font-size: 16px !important;
-    font-weight: 400;
-    line-height: 20px;
+	padding: 0px 6px;
+	font-size: 16px !important;
+	font-weight: 400;
+	line-height: 20px;
 }
+
 .mails span {
 	padding-left: 8px;
 }
 
 .middle-nav-items li {
-    font-family: 'Poppins', sans-serif;
-    font-style: normal;
-    font-weight: 700;
-    font-size: 16px !important;
-    line-height: 24px;
-    display: flex;
-    align-items: center;
-    padding-right: 20px;
+	font-family: 'Poppins', sans-serif;
+	font-style: normal;
+	font-weight: 700;
+	font-size: 16px !important;
+	line-height: 24px;
+	display: flex;
+	align-items: center;
+	padding-right: 20px;
 }
 
 li.shopping-items {
@@ -154,10 +155,10 @@ li.shopping-items {
 }
 
 .hero-text-area {
-    padding-left: 70px;
-    margin-top: 190px;
-    position: relative;
-    margin-bottom: 70px;
+	padding-left: 70px;
+	margin-top: 190px;
+	position: relative;
+	margin-bottom: 70px;
 }
 
 p.main-test {
@@ -214,13 +215,13 @@ img.ht-1 {
 }
 
 p.high-text {
-    position: absolute;
-    top: 6%;
-    font-family: 'Inter';
-    font-style: italic;
-    font-weight: 400;
-    font-size: 22px;
-    left: 5%;
+	position: absolute;
+	top: 6%;
+	font-family: 'Inter';
+	font-style: italic;
+	font-weight: 400;
+	font-size: 22px;
+	left: 5%;
 }
 
 .row.main-items {
@@ -397,10 +398,10 @@ img.i-3.w-100 {
 }
 
 .bottom-dark-area {
-    height: 120px;
-    background: #11713D;
-    margin-top: 0px;
-    margin-bottom: 100px;
+	height: 120px;
+	background: #11713D;
+	margin-top: 0px;
+	margin-bottom: 100px;
 }
 
 p.bottom-dark-area-main-text {
@@ -429,21 +430,21 @@ section#middle-content {
 }
 
 section#middle-content .container.bottom-area p.main-heading {
-    font-family: 'Luckiest Guy';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 50px;
-    line-height: 117.69%;
-    text-align: center;
-    color: #FFFFFF;
+	font-family: 'Luckiest Guy';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 50px;
+	line-height: 117.69%;
+	text-align: center;
+	color: #FFFFFF;
 }
 
 section#middle-content .container.bottom-area .box-area {
-    margin-top: 55px;
-    background-color: #11713D;
-    padding: 50px 40px;
-    border-radius: 10px;
-    position: relative;
+	margin-top: 55px;
+	background-color: #11713D;
+	padding: 50px 40px;
+	border-radius: 10px;
+	position: relative;
 }
 
 section#middle-content .container.bottom-area button.main-button.box-btn a {
@@ -484,11 +485,11 @@ section#middle-content .container.bottom-area button.main-button {
 }
 
 .box-area img.box-image {
-    max-width: 350px;
-    position: absolute;
-    top: 10%;
-    left: 69%;
-    width: 100%;
+	max-width: 350px;
+	position: absolute;
+	top: 10%;
+	left: 69%;
+	width: 100%;
 }
 
 .container.bottom-area {
@@ -1047,10 +1048,10 @@ img.rig-bg-img {
 }
 
 img.l-bg-img {
-    position: absolute;
-    max-width: 140px;
-    top: -310px;
-    left: 0px;
+	position: absolute;
+	max-width: 140px;
+	top: -310px;
+	left: 0px;
 }
 
 img.r-bg-img {
@@ -1065,26 +1066,26 @@ nav.navbar.navbar-expand-lg.first-navbar {
 }
 
 section#Hero-Section {
-    background-image: url(inc/king-images/bannernew.png);
-    background-size: cover;
-    background-position: center right;
-    background-repeat: no-repeat;
-    width: 100%;
-    background-position-x: 373px;
-    background-position-y: -329px;
+	background-image: url(inc/king-images/bannernew.png);
+	background-size: cover;
+	background-position: center right;
+	background-repeat: no-repeat;
+	width: 100%;
+	background-position-x: 373px;
+	background-position-y: -329px;
 }
 
 .col-md-6.hero-left {
-    padding-top: 15px;
+	padding-top: 15px;
 }
 
 img.b-1 {
-    position: absolute;
-    width: 100%;
-    max-width: 500px;
-    left: 148px;
-    height: auto;
-    top: 234px;
+	position: absolute;
+	width: 100%;
+	max-width: 500px;
+	left: 148px;
+	height: auto;
+	top: 234px;
 }
 
 .col-md-6.hero-right {
@@ -1092,65 +1093,65 @@ img.b-1 {
 }
 
 img.b-2 {
-    position: absolute;
-    bottom: 16px;
-    width: 100%;
-    max-width: 150px;
-    left: 113px;
-    transform: rotate(484deg);
+	position: absolute;
+	bottom: 16px;
+	width: 100%;
+	max-width: 150px;
+	left: 113px;
+	transform: rotate(484deg);
 }
 
 img.b-3 {
-    position: absolute;
-    top: 104px;
-    width: 100%;
-    max-width: 189px;
-    right: 133px;
-    transform: rotate(357deg);
+	position: absolute;
+	top: 104px;
+	width: 100%;
+	max-width: 189px;
+	right: 133px;
+	transform: rotate(357deg);
 }
 
 img.b-4 {
-    position: absolute;
-    top: 125px;
-    width: 100%;
-    max-width: 128px;
-    left: 179px;
-    transform: rotate(356deg);
+	position: absolute;
+	top: 125px;
+	width: 100%;
+	max-width: 128px;
+	left: 179px;
+	transform: rotate(356deg);
 }
 
 img.b-5 {
-    position: absolute;
-    top: 113px;
-    width: 100%;
-    max-width: 140px;
-    left: 90px;
-    transform: rotate(356deg);
+	position: absolute;
+	top: 113px;
+	width: 100%;
+	max-width: 140px;
+	left: 90px;
+	transform: rotate(356deg);
 }
 
 img.b-6 {
-    position: absolute;
-    top: 534px;
-    width: 100%;
-    max-width: 190px;
-    right: 188px;
-    transform: rotate(356deg);
+	position: absolute;
+	top: 534px;
+	width: 100%;
+	max-width: 190px;
+	right: 188px;
+	transform: rotate(356deg);
 }
 
 img.b-7 {
-    position: absolute;
-    bottom: 30px;
-    width: 100%;
-    max-width: 120px;
-    right: 94px;
-    transform: rotate(390deg);
+	position: absolute;
+	bottom: 30px;
+	width: 100%;
+	max-width: 120px;
+	right: 94px;
+	transform: rotate(390deg);
 }
 
 img.h-1 {
-    position: absolute;
-    bottom: 466px;
-    width: 100%;
-    max-width: 94px;
-    right: 21px;
+	position: absolute;
+	bottom: 466px;
+	width: 100%;
+	max-width: 94px;
+	right: 21px;
 }
 
 img.h-2 {
@@ -1203,7 +1204,7 @@ section#middle-content {
 }
 
 .container.center-area {
-    padding-top: 100px;
+	padding-top: 100px;
 }
 
 
@@ -1297,11 +1298,11 @@ section#middle-content {
 }
 
 .wrapper {
-    margin-top: 185px;
+	margin-top: 185px;
 }
 
 div#myBtnContainer button.btn {
-    margin: 0px 5px;
+	margin: 0px 5px;
 }
 
 .container.the-man-section .m-heading {
@@ -1363,14 +1364,14 @@ img.m-1 {
 
 /*navbar new updates*/
 .first-nav-items ul li a span {
-    font-family: 'Luckiest Guy';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 16px;
-    line-height: 20px;
-    display: flex;
-    align-items: center;
-    color: #FFFFFF;
+	font-family: 'Luckiest Guy';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 16px;
+	line-height: 20px;
+	display: flex;
+	align-items: center;
+	color: #FFFFFF;
 }
 
 @media (max-width: 1199.98px) {}
@@ -1689,4 +1690,126 @@ img.m-1 {
 		padding-bottom: 50px;
 	}
 
+	p.g-bottom {
+		font-size: 35px;
+	}
+
+	div#myBtnContainer {
+		position: absolute;
+		top: 12%;
+		left: 2%;
+	}
+
+	div#myBtnContainer {
+		position: absolute;
+		top: 3%;
+		left: 2%;
+	}
+
+	div#myBtnContainer .btn {
+		padding: 5px 11px;
+		font-size: 13px;
+	}
+
+	.column {
+		float: left;
+		width: 100%;
+	}
+
+	img.organic-left-img {
+		max-width: 70px;
+		max-height: 70px;
+		padding-top: 20px;
+	}
+
+	.container.gallery-filltering .main {
+		max-width: 100%;
+		margin: auto;
+		margin-top: 40px;
+	}
+
+	.column.nature.show {
+		margin-top: 70px;
+	}
+
+	.inner-content {
+		padding-top: 35px;
+	}
+
+	.container.the-man-section p.m-title {
+		font-size: 35px;
+		margin-left: 0px;
+	}
+
+	.man-section-box {
+		border-radius: 30.5px;
+		padding: 50px 0px;
+	}
+
+	.man-section-box {
+		margin-top: 25px;
+	}
+
+	img.man {
+		position: absolute;
+		top: 50%;
+		max-width: 117px;
+		width: 100%;
+		right: 2%;
+		display: none;
+	}
+
+	.container.the-man-section {
+		padding-top: 60px;
+	}
+
+	.container.the-man-section {
+		padding-bottom: 65px;
+	}
+
+	.row.footer-top .logo {
+		text-align: left;
+	}
+
+	input[type="text"] {
+		padding: 10px 30px;
+		width: 237px;
+		font-size: 13px;
+	}
+
+	input[type="submit"] {
+		margin-left: -55px;
+		width: 108px;
+		padding: 10px 10px;
+		font-size: 13px;
+	}
+
+	.social-media-icons {
+		text-align: left;
+	}
+
+	.col-md-4.footer-border {
+		padding: 40px 15px;
+	}
+
+	.col-md-2.footer-border {
+		padding: 10px 15px;
+	}
+
+	.footer-section .col-md-6.left-corner p.left {
+		padding-left: 0px;
+	}
+
+	.col-md-6.right-corner {
+		padding-left: 15px;
+	}
+
+	img.t-s1 {
+		position: absolute;
+		width: 100%;
+		max-width: 59px;
+		top: 246px;
+		transform: rotate(284deg);
+		left: 49px;
+	}
 }
