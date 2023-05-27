@@ -258,7 +258,9 @@ get_header();  ?>
         <div class="main">
 
             <!-- Portfolio Gallery Grid -->
-            <div class="row natu">
+
+
+            <!-- <div class="row natu">
                 <div class="column nature">
                     <div class="items-details">
                         <div class="item-name">
@@ -489,8 +491,47 @@ get_header();  ?>
                         </div>
                     </div>
                 </div>
-                <!-- END GRID -->
+            </div> -->
+
+            <!-- END GRID -->
+
+            <!-- Woocommerce list -->
+            <div class="row natu">
+                <?php
+                $products = wc_get_products(array(
+                    'limit' => 8, // Retrieve 8 products
+                ));
+
+                foreach ($products as $product) {
+                    $image_id = $product->get_image_id();
+                    $image_url = wp_get_attachment_image_url($image_id, 'full');
+                    $product_name = $product->get_name();
+                    $product_price = $product->get_price_html();
+                    $product_permalink = $product->get_permalink();
+                ?>
+
+                    <div class="column nature">
+                        <div class="items-details">
+                            <div class="item-name">
+                                <span class="name-s">VEGAN</span>
+                            </div>
+                            <div class="item-price">
+                                <span class="price-p">-27%</span>
+                            </div>
+                        </div>
+                        <div class="content">
+                            <img class="content-img" src="<?php echo esc_url($image_url); ?>" alt="<?php echo esc_attr($product_name); ?>" style="width:100%">
+                            <div class="inner-content">
+                                <h4><?php echo esc_html($product_name); ?></h4>
+                                <p><?php echo $product_price; ?></p>
+                                <button class="main-button galley-grid-btn"><a href="<?php echo esc_url($product_permalink); ?>">Buy Now</a></button>
+                            </div>
+                        </div>
+                    </div>
+
+                <?php } ?>
             </div>
+            <!-- Woocommerce list -->
 
             <div class="galley-btn-t">
                 <button class="main-button center-gallery-btn"><a href="">Shop Now</a></button>
@@ -498,6 +539,11 @@ get_header();  ?>
 
 
             <!-- END MAIN -->
+
+
+
+
+
         </div>
 
     </div>
