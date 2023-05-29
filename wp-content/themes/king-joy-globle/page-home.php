@@ -52,7 +52,7 @@ get_header();  ?>
 <div class="container-fluid middle-content-first">
     <div class="main-s">
         <div class="row main-items">
-            <div class="col-sm-12 col-md-4 col-lg-4 main-i-1">
+            <div class="col-sm-12 col-md-12 col-lg-4 main-i-1">
                 <div class="img-inner-content" style="background-image: url(<?php echo get_template_directory_uri(); ?>/inc/king-images/itemmedia.png); border-radius: 0px 40px 40px 0px;">
                     <div class="inner-left">
                         <img class="inner-img w-100" src="<?php echo get_template_directory_uri(); ?>/inc/king-images/bn-18-child-01.png.png" alt="">
@@ -67,7 +67,7 @@ get_header();  ?>
                 </div>
             </div>
 
-            <div class="col-sm-12 col-md-4 col-lg-4 main-i-1">
+            <div class="col-sm-12 col-md-12 col-lg-4 main-i-1">
                 <div class="img-inner-content" style="background-image: url(<?php echo get_template_directory_uri(); ?>/inc/king-images/itemmedia.png); border-radius: 40px 40px 40px 40px;">
                     <div class="inner-left">
                         <img class="inner-img w-100" src="<?php echo get_template_directory_uri(); ?>/inc/king-images/bn-18-child-01.png.png" alt="">
@@ -82,7 +82,7 @@ get_header();  ?>
                 </div>
             </div>
 
-            <div class="col-sm-12 col-md-4 col-lg-4 main-i-1">
+            <div class="col-sm-12 col-md-12 col-lg-4 main-i-1">
                 <div class="img-inner-content" style="background-image: url(<?php echo get_template_directory_uri(); ?>/inc/king-images/a.media.png); border-radius: 40px 0px 0px 40px;">
                     <div class="inner-left">
                         <img class="inner-img w-100" src="<?php echo get_template_directory_uri(); ?>/inc/king-images/bn-18-child-01.png.png" alt="">
@@ -138,7 +138,7 @@ get_header();  ?>
 
             <div class="main-content-area">
                 <div class="row fresh">
-                    <div class="col-lg-7 col-md-7 col-sm-12 col-xm-12">
+                    <div class="col-lg-7 col-md-12 col-sm-12 col-xm-12">
                         <div class="box-area">
                             <p class="box-main-text">Why Kinjo Global?</p>
                             <p class="box-description">Morbi eget congue lectus. Donec eleifend ultricies urna
@@ -150,7 +150,7 @@ get_header();  ?>
                         </div>
                     </div>
 
-                    <div class="col-lg-5 col-md-5 col-sm-12 col-xm-12 slider-area-col">
+                    <div class="col-lg-5 col-md-12 col-sm-12 col-xm-12 slider-area-col">
                         <div class="slider-area">
                             <div class="wrapper">
                                 <div class="outer">
@@ -217,14 +217,14 @@ get_header();  ?>
 <div class="rectangle-box">
     <div class="container organic-rectangle">
         <div class="row rectangle">
-            <div class="col-lg-6 col-md-6 col-sm-12 col-xm-12 left-side">
+            <div class="col-lg-6 col-md-12 col-sm-12 col-xm-12 left-side">
                 <div class="left-side-content">
                     <img class="organic-left-img" src="<?php echo get_template_directory_uri(); ?>/inc/king-images/fertilizer.png" alt="">
                     <p class="nature">Good for nature</p>
                 </div>
             </div>
 
-            <div class="col-lg-6 col-md-6 col-sm-12 col-xm-12 col-md-6 right-side">
+            <div class="col-lg-6 col-md-12 col-sm-12 col-xm-12 col-md-6 right-side">
                 <div class="right-side-content">
                     <img class="organic-right-img" src="<?php echo get_template_directory_uri(); ?>/inc/king-images/organic.png" alt="">
                     <p class="organic">Good for nature</p>
@@ -521,7 +521,7 @@ get_header();  ?>
             <section class="testimonial-area">
                 <div class="container">
                     <div class="row">
-                        <div class="col-xm-12 col-sm-12 col-md-8 col-lg-8">
+                        <div class="col-xm-12 col-sm-12 col-md-12 col-lg-8">
                             <div class="testimonial-inner-section">
                                 <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel" data-bs-interval="3000">
                                     <!-- Added data-bs-interval attribute for autoplay with 3s interval -->
@@ -605,7 +605,7 @@ get_header();  ?>
 
                         </div>
 
-                        <div class="col-xm-12 col-sm-12 col-md-4 col-lg-4">
+                        <div class="col-xm-12 col-sm-12 col-md-12 col-lg-4">
                             <div class="testimonial-right-content">
                                 <img class="man" src="<?php echo get_template_directory_uri(); ?>/inc/king-images/man.png" alt="">
                             </div>

@@ -1317,7 +1317,9 @@ img.l-bg-img {
     }
 }
 
-@media (max-width: 768px) {}
+@media (max-width: 768px) {
+ 
+}
 
 @media (max-width: 576px) {
     p.main-description {
@@ -1358,6 +1360,7 @@ img.l-bg-img {
         background-position-y: 0px;
     }
 
+
     .hero-text-area {
         z-index: 1;
     }
@@ -1375,9 +1378,6 @@ img.l-bg-img {
         transform: rotate(357deg);
     }
 
-    img.b-1 {
-        display: none;
-    }
 
     img.b-2 {
         position: absolute;
@@ -1449,4 +1449,7 @@ img.l-bg-img {
         width: 321px;
         font-size: 40px;
     }
+
+
+ 
 }

@@ -13,12 +13,12 @@
 ?>
 <div class="footer-section">
     <div class="row footer-top">
-        <div class="col-md-3">
+        <div class="col-lg-3 col-md-12 col-sm-12 col-xm-12">
             <div class="logo">
                 <img class="footer-logo" src="<?php echo get_template_directory_uri(); ?>/inc/king-images/logo.png" alt="">
             </div>
         </div>
-        <div class="col-md-6">
+        <div class="col-lg-6 col-md-12 col-sm-12 col-xm-12">
             <div class="search">
                 <form>
                     <input id="userphone" type="text" placeholder="Your Phone Number" required>
@@ -26,7 +26,7 @@
                 </form>
             </div>
         </div>
-        <div class="col-md-3">
+        <div class="col-lg-3 col-md-12 col-sm-12 col-xm-12">
             <div class="social-media-icons">
                 <div class="media-icons d-inline">
                     <ul class="s-icons">
@@ -41,7 +41,7 @@
     </div>
 
     <div class="row footer-middle">
-        <div class="col-md-4 footer-border">
+        <div class="col-lg-4 col-md-12 col-sm-12 col-xm-12 footer-border">
             <p class="footer-headings">Why People Like us</p>
             <p class="footer-des">Ut enim ad minim veniam, quis nostrud exerci-
                 tation ullamco laboris nisi ut aliquip ex ea
@@ -50,7 +50,7 @@
             <button class="main-button"><a href="">Shop Now</a></button>
 
         </div>
-        <div class="col-md-2 footer-border">
+        <div class="col-lg-2 col-md-12 col-sm-12 col-xm-12 footer-border">
             <p class="footer-headings">Information</p>
             <ul class="footer-list">
                 <li><a href="">About Us</a></li>
@@ -60,7 +60,7 @@
                 <li><a href="">Return policy</a></li>
             </ul>
         </div>
-        <div class="col-md-2 footer-border">
+        <div class="col-lg-2 col-md-12 col-sm-12 col-xm-12 footer-border">
             <p class="footer-headings">Shop</p>
             <ul class="footer-list">
                 <li><a href="">Jams & Chutneys</a></li>
@@ -70,7 +70,7 @@
                 <li><a href="">Vegetarian</a></li>
             </ul>
         </div>
-        <div class="col-md-4 footer-border">
+        <div class="col-lg-4 col-md-12 col-sm-12 col-xm-12 footer-border">
             <p class="footer-headings">Contact Us</p>
             <ul class="footer-list">
                 <li><span>Address:</span>address goes here</li>
@@ -84,14 +84,14 @@
         </div>
     </div>
     <div class="row fooder-bottom">
-        <div class="col-md-6 left-corner">
+        <div class="col-lg-6 col-md-12 col-sm-12 col-xm-12 left-corner">
             <p class="left">Copyright &copy;
                  <script>document.write(new Date().getFullYear())</script>  
             <span>Kinjo</span> 
             <!-- <?php echo get_template_directory_uri(); ?> -->
             inc. All rights reserved.</p>
         </div>
-        <div class="col-md-6 right-corner">
+        <div class="col-lg-6 col-md-12 col-sm-12 col-xm-12 right-corner">
             <span><a href="" class="active">Privacy Policy &nbsp;| &nbsp; </a></span>
             <span><a href="" class="active">Terms of Use &nbsp;|&nbsp; </a></span>
             <span><a href="" class="active">Sales and Refunds &nbsp; </a></span>
