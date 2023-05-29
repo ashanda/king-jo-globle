@@ -2015,9 +2015,9 @@ button.d1-button {
 	}
 
 	img.h-1 {
-		bottom: 322px;
+		bottom: 356px;
 		max-width: 121px;
-		left: 340px;
+		left: 176px;
 	}
 
 	img.ht-1 {
@@ -2715,7 +2715,7 @@ button.d1-button {
 		top: -431px;
 		width: 100%;
 		max-width: 86px;
-		right: -9px;
+		right: 14px;
 		transform: rotate(346deg);
 	}
 
@@ -2738,7 +2738,7 @@ button.d1-button {
 		position: absolute;
 		width: 100%;
 		max-width: 300px;
-		left: 20px;
+		left: 73px;
 		height: auto;
 		top: -347px;
 	}
@@ -2750,6 +2750,23 @@ button.d1-button {
 
 	.rectangle-box {
 		padding-top: 130px;
+	}
+
+	.row.main-items .col-md-12 {
+		width: 100%;
+	}
+
+	p.top-text {
+		font-size: 30px;
+		line-height: 39px;
+		width: 100%;
+	}
+
+	.middle-content-second .top-area p.main-hea-des {
+		font-size: 19px;
+		line-height: 28px;
+		width: 100%;
+		margin: 0 auto;
 	}
 
 	/*about us start*/
