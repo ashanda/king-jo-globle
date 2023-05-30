@@ -12,6 +12,7 @@
 
 ?>
 <div class="footer-section">
+    <div class="footer-space">
     <div class="row footer-top">
         <div class="col-lg-3 col-md-12 col-sm-12 col-xm-12">
             <div class="logo">
@@ -93,10 +94,12 @@
         </div>
         <div class="col-lg-6 col-md-12 col-sm-12 col-xm-12 right-corner">
             <span><a href="" class="active">Privacy Policy &nbsp;| &nbsp; </a></span>
-            <span><a href="" class="active">Terms of Use &nbsp;|&nbsp; </a></span>
-            <span><a href="" class="active">Sales and Refunds &nbsp; </a></span>
+            <span><a href="" >Terms of Use &nbsp;|&nbsp; </a></span>
+            <span><a href="">Sales and Refunds &nbsp; </a></span>
         </div>
     </div>
+    </div>
+ 
 </div>
 </div>
 
