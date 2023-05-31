@@ -22,8 +22,7 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
 
     <!-- fontAwsome -->
-    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
-        integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous" />
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous" />
 
     <!-- Google Fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -32,6 +31,7 @@
 
     <!-- Custom CSS -->
     <link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/styles.css">
+
 
     <title>King-Jo-Global</title>
     <?php wp_head(); ?>
@@ -46,7 +46,7 @@
             <!-- Start Header Section -->
             <div class="header-area">
                 <!-- Nav Bar Start -->
-                <nav class="navbar navbar-expand-lg first-navbar">
+                <nav id="fixed-top" class="navbar navbar-expand-lg first-navbar fixed-top">
                     <div class="container-fluid">
                         <a class="navbar-brand" href="#"><img src="<?php echo get_template_directory_uri(); ?>/inc/king-images/logo.png" alt=""></a>
                         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -67,19 +67,17 @@
                                 ?>
                             </div>
 
-                            <div class="middle-nav-items">
-                                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-                                    <li class="mails"><i class="fas fa-envelope"></i><span>mail@company.com</span></li>
-                                    <li>call us for any inquiry 0123 456 789</li>
-                                </ul>
-                            </div>
+                            <!-- <ul class="navbar-nav mx-auto mb-2 mb-lg-0">
+                                <li class="mails"><i class="fas fa-envelope"></i><span>mail@company.com</span></li>
+                            </ul> -->
 
-                            <div class="right-nav-items">
-                                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-                                    <li class="shopping-items"><i class="fas fa-heart"></i></li>
-                                    <li><i class="fas fa-shopping-bag"></i></li>
-                                </ul>
-                            </div>
+                            <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                                <li><a class="fw-bold text-white" href="tel:+94123456789"><i class="fas fa-mobile-alt me-2" aria-hidden="true"></i>
+                                        0123 456 789</a></li>
+                                <li class="shopping-items"><a class="text-white" href=""><i class="fas fa-heart"></i></a></li>
+                                <li><a class="text-white" href=""><i class="fas fa-shopping-bag"></i></a></li>
+                            </ul>
+
                         </div>
                     </div>
                 </nav>

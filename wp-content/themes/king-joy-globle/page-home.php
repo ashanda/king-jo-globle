@@ -14,7 +14,7 @@ get_header();  ?>
                         <img class="ht-1" src="<?php echo get_template_directory_uri(); ?>/inc/king-images/highlight.png" alt="">
                         <p class="high-text">GAP Certified Agro Products</p>
                     </div>
-                    <img class="h-1" src="<?php echo get_template_directory_uri(); ?>/inc/king-images/Vector 3.png" alt="">
+                    <img class="h-1" data-scroll-speed="8" src="<?php echo get_template_directory_uri(); ?>/inc/king-images/Vector 3.png" alt="">
                     <p class="main-test">FRUITS, VEGGIES & DRY ITEMS</p>
                     <P class="main-description">Morbi eget congue lectus. Donec eleifend ultricies urna et euismod. Sed
                         consectetur tellus eget odio aliquet, vel vestibulum tellus sollicitudin. Morbi
@@ -22,20 +22,20 @@ get_header();  ?>
                         <!-- <?php echo get_template_directory_uri(); ?>/incidunt -->
                     </P>
                     <button class="main-button"><a href="">Shop Now</a></button>
-                    <img class="h-2" src="<?php echo get_template_directory_uri(); ?>/inc/king-images/Orange.png" alt="">
-                    <img class="h-3" src="<?php echo get_template_directory_uri(); ?>/inc/king-images/Mint.png" alt="">
+                    <img class="h-2" data-scroll-speed="4" src="<?php echo get_template_directory_uri(); ?>/inc/king-images/Orange.png" alt="">
+                    <img class="h-3" data-scroll-speed="8" src="<?php echo get_template_directory_uri(); ?>/inc/king-images/Mint.png" alt="">
                 </div>
             </div>
 
             <div class="col-md-6 hero-right">
                 <div class="inner-images">
-                    <img class="b-5" src="<?php echo get_template_directory_uri(); ?>/inc/king-images/h3_leaf-4.png" alt="">
+                    <img class="b-5 vert-move" src="<?php echo get_template_directory_uri(); ?>/inc/king-images/h3_leaf-4.png" alt="">
                     <img class="b-1" src="<?php echo get_template_directory_uri(); ?>/inc/king-images/Layer-2.png" alt="">
-                    <img class="b-2" src="<?php echo get_template_directory_uri(); ?>/inc/king-images/SeekPng (1).png" alt="">
-                    <img class="b-3" src="<?php echo get_template_directory_uri(); ?>/inc/king-images/SeekPng (2).png" alt="">
-                    <img class="b-4" src="<?php echo get_template_directory_uri(); ?>/inc/king-images/SeekPng3.png" alt="">
-                    <img class="b-6" src="<?php echo get_template_directory_uri(); ?>/inc/king-images/h3_leaf-4.png" alt="">
-                    <img class="b-7" src="<?php echo get_template_directory_uri(); ?>/inc/king-images/h3_leaf-4.png" alt="">
+                    <img class="b-2 vert-move" src="<?php echo get_template_directory_uri(); ?>/inc/king-images/SeekPng (1).png" alt="">
+                    <img class="b-3 vert-move" src="<?php echo get_template_directory_uri(); ?>/inc/king-images/SeekPng (2).png" alt="">
+                    <img class="b-4 vert-move" src="<?php echo get_template_directory_uri(); ?>/inc/king-images/SeekPng3.png" alt="">
+                    <img class="b-6 vert-move" src="<?php echo get_template_directory_uri(); ?>/inc/king-images/h3_leaf-4.png" alt="">
+                    <img class="b-7 vert-move" src="<?php echo get_template_directory_uri(); ?>/inc/king-images/h3_leaf-4.png" alt="">
                 </div>
             </div>
         </div>
@@ -55,7 +55,7 @@ get_header();  ?>
             <div class="col-sm-12 col-md-12 col-lg-4 main-i-1">
                 <div class="img-inner-content" style="background-image: url(<?php echo get_template_directory_uri(); ?>/inc/king-images/itemmedia.png); border-radius: 0px 40px 40px 0px;">
                     <div class="inner-left">
-                        <img class="inner-img w-100" src="<?php echo get_template_directory_uri(); ?>/inc/king-images/bn-18-child-01.png.png" alt="">
+                        <img class="inner-img w-100 mt-4" src="<?php echo get_template_directory_uri(); ?>/inc/king-images/child-01.png" alt="">
                     </div>
                     <div class="inner-right">
                         <p class="top-text">Farm Fresh</p>
@@ -70,7 +70,7 @@ get_header();  ?>
             <div class="col-sm-12 col-md-12 col-lg-4 main-i-1">
                 <div class="img-inner-content" style="background-image: url(<?php echo get_template_directory_uri(); ?>/inc/king-images/itemmedia.png); border-radius: 40px 40px 40px 40px;">
                     <div class="inner-left">
-                        <img class="inner-img w-100" src="<?php echo get_template_directory_uri(); ?>/inc/king-images/bn-18-child-01.png.png" alt="">
+                        <img class="inner-img w-100 mt-4" src="<?php echo get_template_directory_uri(); ?>/inc/king-images/child-02.png" alt="">
                     </div>
 
                     <div class="inner-right">
@@ -85,7 +85,7 @@ get_header();  ?>
             <div class="col-sm-12 col-md-12 col-lg-4 main-i-1">
                 <div class="img-inner-content" style="background-image: url(<?php echo get_template_directory_uri(); ?>/inc/king-images/a.media.png); border-radius: 40px 0px 0px 40px;">
                     <div class="inner-left">
-                        <img class="inner-img w-100" src="<?php echo get_template_directory_uri(); ?>/inc/king-images/bn-18-child-01.png.png" alt="">
+                        <img class="inner-img w-100 mt-4" src="<?php echo get_template_directory_uri(); ?>/inc/king-images/child-03.png" alt="">
                     </div>
 
                     <div class="inner-right">
@@ -108,7 +108,7 @@ get_header();  ?>
             <p class="main-heading">Home grown made with Love</p>
             <p class="main-hea-des">Handmade in small batches for maximum flavor, using fresh local produce when
                 in season.</p>
-            <img class="t-s1" src="<?php echo get_template_directory_uri(); ?>/inc/king-images/SeekPng (1).png" alt="">
+            <img class="t-s1" data-scroll-speed="5" src="<?php echo get_template_directory_uri(); ?>/inc/king-images/SeekPng (1).png" alt="">
         </div>
 
         <div class="container center-area">
@@ -227,7 +227,7 @@ get_header();  ?>
             <div class="col-lg-6 col-md-12 col-sm-12 col-xm-12 col-md-6 right-side">
                 <div class="right-side-content">
                     <img class="organic-right-img" src="<?php echo get_template_directory_uri(); ?>/inc/king-images/organic.png" alt="">
-                    <p class="organic">Good for nature</p>
+                    <p class="organic">Good for life</p>
                 </div>
             </div>
         </div>
@@ -496,7 +496,7 @@ get_header();  ?>
             <!-- END GRID -->
 
             <!-- Woocommerce list -->
-            <div class="row natu">
+            <div class="row natu prod_sec">
                 <?php
                 $products = wc_get_products(array(
                     'limit' => 8, // Retrieve 8 products
@@ -510,7 +510,7 @@ get_header();  ?>
                     $product_permalink = $product->get_permalink();
                 ?>
 
-                    <div class="column nature">
+                    <div class="column mb-2 nature">
                         <div class="items-details">
                             <div class="item-name">
                                 <span class="name-s">VEGAN</span>
@@ -519,12 +519,14 @@ get_header();  ?>
                                 <span class="price-p">-27%</span>
                             </div>
                         </div>
-                        <div class="content">
-                            <img class="content-img" src="<?php echo esc_url($image_url); ?>" alt="<?php echo esc_attr($product_name); ?>" style="width:100%">
+                        <div class="content mt-5">
+                            <div class="img_wrap">
+                                <img class="content-img" src="<?php echo esc_url($image_url); ?>" alt="<?php echo esc_attr($product_name); ?>">
+                            </div>
                             <div class="inner-content">
                                 <h4><?php echo esc_html($product_name); ?></h4>
                                 <p><?php echo $product_price; ?></p>
-                                <button class="main-button galley-grid-btn"><a href="<?php echo esc_url($product_permalink); ?>">Buy Now</a></button>
+                                <button class="main-button galley-grid-btn"><a href="<?php echo esc_url($product_permalink); ?>">Inquiry</a></button>
                             </div>
                         </div>
                     </div>
@@ -549,11 +551,11 @@ get_header();  ?>
     </div>
 
     <div class="left-side-bg-img">
-        <img class="l-bg-img" src="<?php echo get_template_directory_uri(); ?>/inc/king-images/h4-bg-section-01 (1).png" alt="">
+        <img class="l-bg-img" data-scroll-speed="4" src="<?php echo get_template_directory_uri(); ?>/inc/king-images/h4-bg-section-01 (1).png" alt="">
     </div>
 
     <div class="right-side-bg-img">
-        <img class="r-bg-img" src="<?php echo get_template_directory_uri(); ?>/inc/king-images/h4-bg-section-01.png" alt="">
+        <img class="r-bg-img" data-scroll-speed="3" src="<?php echo get_template_directory_uri(); ?>/inc/king-images/h4-bg-section-01.png" alt="">
     </div>
 
     <div class="container the-man-section">

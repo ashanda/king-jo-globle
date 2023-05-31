@@ -1,3 +1,48 @@
+// Navbar bg color on scroll
+function addClassOnScroll(navbarSelector, scrollHeight, className) {
+    var navbar = document.querySelector(navbarSelector);
+    window.addEventListener('scroll', function () {
+        if (window.pageYOffset > scrollHeight) {
+            navbar.classList.add(className);
+        } else {
+            navbar.classList.remove(className);
+        }
+    });
+}
+addClassOnScroll('.fixed-top', 300, 'nav-active');
+
+$.fn.moveIt = function () {
+    var $window = $(window);
+    var instances = [];
+
+    $(this).each(function () {
+        instances.push(new moveItItem($(this)));
+    });
+
+    window.onscroll = function () {
+        var scrollTop = $window.scrollTop();
+        instances.forEach(function (inst) {
+            inst.update(scrollTop);
+        });
+    }
+}
+
+var moveItItem = function (el) {
+    this.el = $(el);
+    this.speed = parseInt(this.el.attr('data-scroll-speed'));
+};
+
+moveItItem.prototype.update = function (scrollTop) {
+    var pos = scrollTop / this.speed;
+    this.el.css('transform', 'translateY(' + -pos + 'px)');
+};
+
+$(function () {
+    $('[data-scroll-speed]').moveIt();
+});
+
+
+
 filterSelection("all")
 function filterSelection(c) {
     var x, i;
@@ -43,8 +88,6 @@ for (var i = 0; i < btns.length; i++) {
 }
 
 
-
-
 window.addEventListener('scroll', parallax);
 
 $(document).ready(function () {
@@ -64,7 +107,9 @@ $(document).ready(function () {
         centerMode:
             variableWidt
     });
+
 });
+
 
 
 
