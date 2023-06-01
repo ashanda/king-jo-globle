@@ -9,7 +9,7 @@ function addClassOnScroll(navbarSelector, scrollHeight, className) {
         }
     });
 }
-addClassOnScroll('.fixed-top', 300, 'nav-active');
+addClassOnScroll('.fixed-top', 100, 'nav-active');
 
 $.fn.moveIt = function () {
     var $window = $(window);

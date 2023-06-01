@@ -1,0 +1,62 @@
+2023-06-01T08:52:53+00:00 CRITICAL syntax error, unexpected token "<", expecting end of file in C:\laragon\www\king-jo-globle\wp-content\themes\king-joy-globle\woocommerce\content-single-product.php on line 188
+
+2023-06-01T08:53:28+00:00 CRITICAL Uncaught TypeError: array_keys(): Argument #1 ($array) must be of type array, null given in C:\laragon\www\king-jo-globle\wp-content\themes\king-joy-globle\woocommerce\content-single-product.php:121
+Stack trace:
+#0 C:\laragon\www\king-jo-globle\wp-content\themes\king-joy-globle\woocommerce\content-single-product.php(121): array_keys(NULL)
+#1 C:\laragon\www\king-jo-globle\wp-includes\template.php(785): require('C:\\laragon\\www\\...')
+#2 C:\laragon\www\king-jo-globle\wp-content\plugins\woocommerce\includes\wc-core-functions.php(284): load_template('C:\\laragon\\www\\...', false)
+#3 C:\laragon\www\king-jo-globle\wp-content\themes\king-joy-globle\woocommerce\single-product.php(37): wc_get_template_part('content', 'single-product')
+#4 C:\laragon\www\king-jo-globle\wp-includes\template-loader.php(106): include('C:\\laragon\\www\\...')
+#5 C:\laragon\www\king-jo-globle\wp-blog-header.php(19): require_once('C:\\laragon\\www\\...')
+#6 C:\laragon\www\king-jo-globle\index.php(17): require('C:\\laragon\\www\\...')
+#7 {main}
+  thrown in C:\laragon\www\king-jo-globle\wp-content\themes\king-joy-globle\woocommerce\content-single-product.php on line 121
+
+2023-06-01T08:53:41+00:00 CRITICAL Uncaught TypeError: array_keys(): Argument #1 ($array) must be of type array, null given in C:\laragon\www\king-jo-globle\wp-content\themes\king-joy-globle\woocommerce\content-single-product.php:121
+Stack trace:
+#0 C:\laragon\www\king-jo-globle\wp-content\themes\king-joy-globle\woocommerce\content-single-product.php(121): array_keys(NULL)
+#1 C:\laragon\www\king-jo-globle\wp-includes\template.php(785): require('C:\\laragon\\www\\...')
+#2 C:\laragon\www\king-jo-globle\wp-content\plugins\woocommerce\includes\wc-core-functions.php(284): load_template('C:\\laragon\\www\\...', false)
+#3 C:\laragon\www\king-jo-globle\wp-content\themes\king-joy-globle\woocommerce\single-product.php(37): wc_get_template_part('content', 'single-product')
+#4 C:\laragon\www\king-jo-globle\wp-includes\template-loader.php(106): include('C:\\laragon\\www\\...')
+#5 C:\laragon\www\king-jo-globle\wp-blog-header.php(19): require_once('C:\\laragon\\www\\...')
+#6 C:\laragon\www\king-jo-globle\index.php(17): require('C:\\laragon\\www\\...')
+#7 {main}
+  thrown in C:\laragon\www\king-jo-globle\wp-content\themes\king-joy-globle\woocommerce\content-single-product.php on line 121
+
+2023-06-01T09:05:07+00:00 CRITICAL Uncaught TypeError: array_keys(): Argument #1 ($array) must be of type array, null given in C:\laragon\www\king-jo-globle\wp-content\themes\king-joy-globle\woocommerce\content-single-product.php:123
+Stack trace:
+#0 C:\laragon\www\king-jo-globle\wp-content\themes\king-joy-globle\woocommerce\content-single-product.php(123): array_keys(NULL)
+#1 C:\laragon\www\king-jo-globle\wp-includes\template.php(785): require('C:\\laragon\\www\\...')
+#2 C:\laragon\www\king-jo-globle\wp-content\plugins\woocommerce\includes\wc-core-functions.php(284): load_template('C:\\laragon\\www\\...', false)
+#3 C:\laragon\www\king-jo-globle\wp-content\themes\king-joy-globle\woocommerce\single-product.php(37): wc_get_template_part('content', 'single-product')
+#4 C:\laragon\www\king-jo-globle\wp-includes\template-loader.php(106): include('C:\\laragon\\www\\...')
+#5 C:\laragon\www\king-jo-globle\wp-blog-header.php(19): require_once('C:\\laragon\\www\\...')
+#6 C:\laragon\www\king-jo-globle\index.php(17): require('C:\\laragon\\www\\...')
+#7 {main}
+  thrown in C:\laragon\www\king-jo-globle\wp-content\themes\king-joy-globle\woocommerce\content-single-product.php on line 123
+
+2023-06-01T09:06:12+00:00 CRITICAL Uncaught TypeError: array_keys(): Argument #1 ($array) must be of type array, null given in C:\laragon\www\king-jo-globle\wp-content\themes\king-joy-globle\woocommerce\content-single-product.php:123
+Stack trace:
+#0 C:\laragon\www\king-jo-globle\wp-content\themes\king-joy-globle\woocommerce\content-single-product.php(123): array_keys(NULL)
+#1 C:\laragon\www\king-jo-globle\wp-includes\template.php(785): require('C:\\laragon\\www\\...')
+#2 C:\laragon\www\king-jo-globle\wp-content\plugins\woocommerce\includes\wc-core-functions.php(284): load_template('C:\\laragon\\www\\...', false)
+#3 C:\laragon\www\king-jo-globle\wp-content\themes\king-joy-globle\woocommerce\single-product.php(37): wc_get_template_part('content', 'single-product')
+#4 C:\laragon\www\king-jo-globle\wp-includes\template-loader.php(106): include('C:\\laragon\\www\\...')
+#5 C:\laragon\www\king-jo-globle\wp-blog-header.php(19): require_once('C:\\laragon\\www\\...')
+#6 C:\laragon\www\king-jo-globle\index.php(17): require('C:\\laragon\\www\\...')
+#7 {main}
+  thrown in C:\laragon\www\king-jo-globle\wp-content\themes\king-joy-globle\woocommerce\content-single-product.php on line 123
+
+2023-06-01T09:17:25+00:00 CRITICAL Uncaught TypeError: array_keys(): Argument #1 ($array) must be of type array, null given in C:\laragon\www\king-jo-globle\wp-content\themes\king-joy-globle\woocommerce\content-single-product.php:122
+Stack trace:
+#0 C:\laragon\www\king-jo-globle\wp-content\themes\king-joy-globle\woocommerce\content-single-product.php(122): array_keys(NULL)
+#1 C:\laragon\www\king-jo-globle\wp-includes\template.php(785): require('C:\\laragon\\www\\...')
+#2 C:\laragon\www\king-jo-globle\wp-content\plugins\woocommerce\includes\wc-core-functions.php(284): load_template('C:\\laragon\\www\\...', false)
+#3 C:\laragon\www\king-jo-globle\wp-content\themes\king-joy-globle\woocommerce\single-product.php(37): wc_get_template_part('content', 'single-product')
+#4 C:\laragon\www\king-jo-globle\wp-includes\template-loader.php(106): include('C:\\laragon\\www\\...')
+#5 C:\laragon\www\king-jo-globle\wp-blog-header.php(19): require_once('C:\\laragon\\www\\...')
+#6 C:\laragon\www\king-jo-globle\index.php(17): require('C:\\laragon\\www\\...')
+#7 {main}
+  thrown in C:\laragon\www\king-jo-globle\wp-content\themes\king-joy-globle\woocommerce\content-single-product.php on line 122
+

@@ -21,7 +21,7 @@ get_header();  ?>
                         maximus metus eu eros tincidunt
                         <!-- <?php echo get_template_directory_uri(); ?>/incidunt -->
                     </P>
-                    <button class="main-button"><a href="">Shop Now</a></button>
+                    <button class="main-button"><a href="shop">Shop Now</a></button>
                     <img class="h-2" data-scroll-speed="4" src="<?php echo get_template_directory_uri(); ?>/inc/king-images/Orange.png" alt="">
                     <img class="h-3" data-scroll-speed="8" src="<?php echo get_template_directory_uri(); ?>/inc/king-images/Mint.png" alt="">
                 </div>
@@ -42,11 +42,6 @@ get_header();  ?>
     </section>
     <!-- End Hero Section -->
 
-</div>
-
-
-<!-- Header Section End -->
-</div>
 </div>
 
 <div class="container-fluid middle-content-first">
@@ -526,7 +521,7 @@ get_header();  ?>
                             <div class="inner-content">
                                 <h4><?php echo esc_html($product_name); ?></h4>
                                 <p><?php echo $product_price; ?></p>
-                                <button class="main-button galley-grid-btn"><a href="<?php echo esc_url($product_permalink); ?>">Inquiry</a></button>
+                                <button class="main-button galley-grid-btn"><a href="<?php echo esc_url($product_permalink); ?>">View Product</a></button>
                             </div>
                         </div>
                     </div>
@@ -536,7 +531,7 @@ get_header();  ?>
             <!-- Woocommerce list -->
 
             <div class="galley-btn-t">
-                <button class="main-button center-gallery-btn"><a href="">Shop Now</a></button>
+                <button class="main-button center-gallery-btn"><a href="shop">Shop Now</a></button>
             </div>
 
 
@@ -551,7 +546,7 @@ get_header();  ?>
     </div>
 
     <div class="left-side-bg-img">
-        <img class="l-bg-img" data-scroll-speed="4" src="<?php echo get_template_directory_uri(); ?>/inc/king-images/h4-bg-section-01 (1).png" alt="">
+        <img class="l-bg-img" data-scroll-speed="8" src="<?php echo get_template_directory_uri(); ?>/inc/king-images/h4-bg-section-01 (1).png" alt="">
     </div>
 
     <div class="right-side-bg-img">

@@ -48,9 +48,6 @@ if (post_password_required()) {
 			do_action('woocommerce_before_single_product_summary');
 			?>
 
-
-
-		
 		</div>
 	</div>
 
@@ -118,103 +115,166 @@ if (post_password_required()) {
 			<div class="col-lg-6 col-md-12 col-sm-12 col-xm-12">
 				<div class="white-box">
 					<div class="white-box-details">
-						<p><span class="w-price-amount"><span class="w-price-currency">$</span>3,561.00</span></del> <ins><span class="w-price-amount1 amount"><span class="w-price-currency1">$</span>3,000.00</span></ins></p>
+						<p>
+							<span class="w-price-amount">
+								<span class="w-price-currency">
+									<?php echo $product->get_price_html(); ?>
+								</span>
+							</span>
+						</p>
+
 						<div class="box-features">
 							<p class="b-fea">Weight:</p>
 							<div class="box-box">
-								<p class="bs-1">1Kg</p>
-								<p class="bs-2">2Kg</p>
-								<p class="bs-3">3Kg</p>
+								<?php
+								global $product;
+
+								if ($product->is_type('variable')) {
+									// Get available variations
+									$available_variations = $product->get_available_variations();
+
+									if (!empty($available_variations)) {
+
+										// Loop through each variation
+										foreach ($available_variations as $variation) {
+											$variation_id = $variation['variation_id'];
+											$variation_obj = wc_get_product($variation_id);
+											$variation_attributes = $variation_obj->get_variation_attributes();
+
+											echo '<p class="bs-2">';
+
+											// Display variation attributes
+											foreach ($variation_attributes as $attribute_name => $attribute_value) {
+												echo $attribute_value;
+											}
+
+											echo '</li>';
+										}
+									}
+								}
+								?>
 							</div>
 						</div>
 
 						<div class="box-features">
 							<p class="b-fea">Speciality:</p>
 							<div class="box-box2">
-								<p class="bs-4">Organic</p>
-								<p class="bs-5">Natural</p>
-							</div>
-						</div>
+								<?php
+								global $product;
 
-						<div class="box-features">
-							<p class="b-fea">Total:</p>
-							<p class="currency-amount">$7.00</p>
-						</div>
+								// Get product categories
+								$product_categories = wp_get_post_terms($product->get_id(), 'product_cat');
 
-						<div class="box-features">
-							<p class="b-fea">Availability:</p>
-							<p class="available">in stock!</p>
-						</div>
-
-
-						<div class="box-features">
-							<p class="b-fea">Availability:</p>
-							<div class="quantity">
-								<button class="decrease">-</button>
-								<input type="number" class="count" value="1">
-								<button class="increase">+</button>
-							</div>
-
-							<script>
-								const decreaseBtn = document.querySelector('.decrease');
-								const increaseBtn = document.querySelector('.increase');
-								const countInput = document.querySelector('.count');
-
-								decreaseBtn.addEventListener('click', () => {
-									let count = parseInt(countInput.value);
-									if (count > 1) {
-										count--;
-										countInput.value = count;
+								if (!empty($product_categories)) {
+									foreach ($product_categories as $category) {
+										echo '<p class="bs-4">' . $category->name . '</p>';
 									}
-								});
+								}
+								?>
 
-								increaseBtn.addEventListener('click', () => {
-									let count = parseInt(countInput.value);
-									count++;
-									countInput.value = count;
-								});
-							</script>
-						</div>
+							</div>
 
-						<div class="cat-button-add">
-							<button class="add-to-cart">Add to Cart</button>
-							<button class="add-to-cart">Buy it now</button>
 						</div>
+					</div>
 
-						<div class="whish">
-							<i class="far fa-heart"></i>
-							<p class="wishlist">Add to wishlist</p>
-						</div>
+					<div class="box-features">
+						<p class="b-fea">Total:</p>
+						<p class="currency-amount ms-1"><?php echo $product->get_price_html(); ?></p>
+					</div>
 
-						<div class="s-payment">
-							<p class="s-pay">100% Secured Payment</p>
-						</div>
+					<div class="box-features">
 
-						<div class="last-div-sec">
-						<i class="fas fa-washer"></i>
-						<p class="f-search">Need to Know More ?</p>
-						</div>
+						<p class="b-fea">Availability:</p>
+						<p class="available ms-1">
+							<?php
+							global $product;
+
+							// Check if the product is in stock
+							if ($product->is_in_stock()) {
+								echo 'In Stock!';
+							} else {
+								echo 'Out of stock !';
+							}
+							?>
+						</p>
 
 
 
 					</div>
+
+
+					<div class="box-features">
+						<p class="b-fea">Availability:</p>
+						<div class="quantity ms-1">
+							<button class="decrease">-</button>
+							<input type="number" class="count" value="1">
+							<button class="increase">+</button>
+						</div>
+
+						<script>
+							const decreaseBtn = document.querySelector('.decrease');
+							const increaseBtn = document.querySelector('.increase');
+							const countInput = document.querySelector('.count');
+
+							decreaseBtn.addEventListener('click', () => {
+								let count = parseInt(countInput.value);
+								if (count > 1) {
+									count--;
+									countInput.value = count;
+								}
+							});
+
+							increaseBtn.addEventListener('click', () => {
+								let count = parseInt(countInput.value);
+								count++;
+								countInput.value = count;
+							});
+						</script>
+					</div>
+
+					<div class="box-features">
+						<div class="cat-button-add">
+							<div class="mt-2">
+								<a class="inq_btn" target="_blank" href="mailto:your-email@example.com">Inqurey</a>
+							</div>
+
+						</div>
+					</div>
+
+					<div class="whish">
+						<i class="far fa-heart"></i>
+						<p class="wishlist">Add to wishlist</p>
+					</div>
+
+					<div class="s-payment">
+						<p class="s-pay">100% Secured Payment</p>
+					</div>
+
+					<div class="last-div-sec">
+					<i class="fa-regular fa-magnifying-glass"></i>
+						<p class="f-search">Need to Know More ?</p>
+					</div>
+
+
+
 				</div>
 			</div>
 		</div>
 	</div>
 </div>
+</div>
 
 <div class="row des-related">
-<?php
-			/**
-			 * Hook: woocommerce_after_single_product_summary.
-			 *
-			 * @hooked woocommerce_output_product_data_tabs - 10
-			 * @hooked woocommerce_upsell_display - 15
-			 * @hooked woocommerce_output_related_products - 20
-			 */
-			do_action('woocommerce_after_single_product_summary');
-			?>							
+	<?php
+	/**
+	 * Hook: woocommerce_after_single_product_summary.
+	 *
+	 * @hooked woocommerce_output_product_data_tabs - 10
+	 * @hooked woocommerce_upsell_display - 15
+	 * @hooked woocommerce_output_related_products - 20
+	 */
+	do_action('woocommerce_after_single_product_summary');
+	?>
 </div>
 
 

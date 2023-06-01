@@ -82,3 +82,8 @@
                     </div>
                 </nav>
                 <!-- Nav Bar End -->
+
+            </div>
+        </div>
+
+        <!-- Header Section End -->
