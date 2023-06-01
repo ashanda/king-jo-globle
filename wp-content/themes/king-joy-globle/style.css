@@ -3695,14 +3695,24 @@ section.related.products h2 {
 .single-product #primary {
 	padding-top: 60px;
 }
+
 ul.tabs.wc-tabs li:hover {
 	background: #5b5b5b;
 }
 
 /* Contact Us page */
-.contact-us-details{
-	padding-top: 100px;
+.page-template-page-contact .cont input[type="text"] {
+	background-color: #fff;
+	border: 1px solid #ced4da;
+	color: #000;
+	width: 100%;
 }
+
+.page-template-page-contact .btn-primary {
+	background-color: #0a58ca;
+	border-color: #0a58ca;
+}
+
 @media (max-width: 576px) {
 	.woocommerce div.product div.images.woocommerce-product-gallery {
 		padding: 0 !important;
@@ -3744,6 +3754,7 @@ ul.tabs.wc-tabs li:hover {
 	ul.tabs.wc-tabs li:hover {
 		background: #5b5b5b;
 	}
+
 	.woocommerce-tabs.wc-tabs-wrapper {
 		padding: 0px 20px;
 	}
