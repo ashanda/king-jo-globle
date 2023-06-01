@@ -83,12 +83,12 @@ get_header();  ?>
                         <img class="inner-img w-100 mt-4" src="<?php echo get_template_directory_uri(); ?>/inc/king-images/child-03.png" alt="">
                     </div>
 
+
                     <div class="inner-right">
-                        <div class="inner-right">
-                            <p class="top-text">Dry items</p>
-                            <p class="bottom-text">Preserved with Taste</p>
-                        </div>
+                        <p class="top-text">Dry items</p>
+                        <p class="bottom-text">Preserved with Taste</p>
                     </div>
+
                 </div>
             </div>
         </div>
@@ -96,7 +96,7 @@ get_header();  ?>
 
 </div>
 
-<section id="middle-content" style="background-image: url(<?php echo get_template_directory_uri(); ?>/inc/king-images/Group\ 8437.png);">
+<section id="middle-content">
 
     <div class="middle-content-second container-fluid">
         <div class="top-area">

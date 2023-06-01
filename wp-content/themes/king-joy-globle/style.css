@@ -3758,12 +3758,21 @@ ul.tabs.wc-tabs li:hover {
 	.woocommerce-tabs.wc-tabs-wrapper {
 		padding: 0px 20px;
 	}
-}
-
-/* @media (min-width: 991.98px) {
-	.img_wrap {
-		max-width: 210px;
-		min-height: 210px;
-		margin: auto;
+	.footer-space {
+		padding: 10px;
 	}
-} */
+	p.top-text {
+		font-size: 17px;
+	}
+	.rectangle-box {
+		margin-top: 100px;
+	}
+}
+.navbar .navbar-toggler-icon {
+	background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 30 30' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(0, 0, 0, 0.5)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 7h22M4 15h22M4 23h22'/%3E%3C/svg%3E");
+}
+@media (max-width: 991.98px) {
+	.navbar-nav.ms-auto.mb-2.mb-lg-0 {
+		display: none;
+	}
+}
