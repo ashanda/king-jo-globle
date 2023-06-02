@@ -206,3 +206,12 @@ require_once get_template_directory() . '/class-wp-bootstrap-navwalker.php';
 // }
 
 // add_action('woocommerce_single_product_summary', 'add_inqurey_btn', 30);
+
+add_filter('add_to_cart_text', 'woo_custom_cart_button_text');
+add_filter('woocommerce_product_add_to_cart_text', 'woo_custom_cart_button_text');
+
+function woo_custom_cart_button_text()
+{
+
+	return __('Buy', 'woocommerce');
+}

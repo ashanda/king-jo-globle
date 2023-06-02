@@ -504,7 +504,6 @@ get_header();  ?>
                     $product_price = $product->get_price_html();
                     $product_permalink = $product->get_permalink();
                 ?>
-
                     <div class="column mb-2 nature">
                         <div class="items-details">
                             <div class="item-name">
@@ -519,15 +518,28 @@ get_header();  ?>
                                 <img class="content-img" src="<?php echo esc_url($image_url); ?>" alt="<?php echo esc_attr($product_name); ?>">
                             </div>
                             <div class="inner-content">
-                                <h4><?php echo esc_html($product_name); ?></h4>
-                                <p><?php echo $product_price; ?></p>
-                                <button class="main-button galley-grid-btn"><a href="<?php echo esc_url($product_permalink); ?>">View Product</a></button>
+                                <div>
+                                    <h4><?php echo esc_html($product_name); ?></h4>
+                                    <p><?php echo $product_price; ?></p>
+                                </div>
+                                <?php if ($product->is_type('simple')) : ?>
+                                    <div class="btns">
+                                        <a class="main-button galley-grid-btn" href="<?php echo esc_url($product_permalink); ?>">View</a>
+                                        <?php echo do_shortcode('[add_to_cart id="' . $product->get_id() . '"]'); ?>
+                                    </div>
+                                <?php else : ?>
+                                    <div class="btns">
+                                        <a class="main-button galley-grid-btn" href="<?php echo esc_url($product_permalink); ?>">View</a>
+
+                                    </div>
+                                <?php endif; ?>
                             </div>
                         </div>
                     </div>
-
                 <?php } ?>
             </div>
+
+
             <!-- Woocommerce list -->
 
             <div class="galley-btn-t">
