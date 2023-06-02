@@ -2468,19 +2468,19 @@ ul.tabs.wc-tabs li:hover {
 .inq_btn:hover {
 	color: #FDC92E;
 }
-
+/* 
 main#primary {
 	padding-top: 132px;
 }
 
 /*CART PAGE*/
-h1.entry-title {
+/* h1.entry-title {
 	text-align: center;
 	font-size: 30px;
 	padding: 20px 10px;
 	background: #11713D;
 	margin-bottom: 40px;
-}
+} */
 
 table.shop_table.shop_table_responsive.cart.woocommerce-cart-form__contents {
 	background: #fff;
@@ -2780,7 +2780,7 @@ a.btn.btn-primary {
 .right-side-content {
     padding-left: 70px;
 }
-
+ */
 
 
 
