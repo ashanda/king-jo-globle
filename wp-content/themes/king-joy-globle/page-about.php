@@ -39,7 +39,7 @@ get_header();  ?>
                     <div class="row ab">
                         <div class="col-lg-2 col-md-2 col-sm-2 col-xm-2 about-icons">
                             <div class="about-icon-list">
-                                <img class="ab-ic" src="<?php echo get_template_directory_uri(); ?>/inc/king-images/about-icon-1 (1).png" alt="">
+                                <img class="ab-ic" src="<?php echo get_template_directory_uri(); ?>/inc/king-images/about-icon-1 (2).png" alt="">
                             </div>
                         </div>
 
@@ -55,7 +55,7 @@ get_header();  ?>
                     <div class="row ab">
                         <div class="col-lg-2 col-md-2 col-sm-2 col-xm-2 about-icons">
                             <div class="about-icon-list">
-                                <img class="ab-ic" src="<?php echo get_template_directory_uri(); ?>/inc/king-images/about-icon-1 (1).png" alt="">
+                                <img class="ab-ic" src="<?php echo get_template_directory_uri(); ?>/inc/king-images/about-icon-3.png" alt="">
                             </div>
                         </div>
 

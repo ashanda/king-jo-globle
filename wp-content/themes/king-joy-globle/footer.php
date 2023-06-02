@@ -42,7 +42,7 @@
         </div>
 
         <div class="row footer-middle">
-            <div class="col-lg-4 col-md-12 col-sm-12 col-xm-12 footer-border">
+            <div class="col-lg-4 col-md-12 col-sm-12 col-xm-12 footer-border fb-start">
                 <p class="footer-headings">Why People Like us</p>
                 <p class="footer-des">Ut enim ad minim veniam, quis nostrud exerci-
                     tation ullamco laboris nisi ut aliquip ex ea
@@ -51,7 +51,7 @@
                 <button class="main-button"><a href="">Shop Now</a></button>
 
             </div>
-            <div class="col-lg-2 col-md-12 col-sm-12 col-xm-12 footer-border">
+            <div class="col-lg-2 col-md-12 col-sm-12 col-xm-12 footer-border fb-2">
                 <p class="footer-headings">Information</p>
                 <ul class="footer-list">
                     <li><a href="">About Us</a></li>
@@ -61,7 +61,7 @@
                     <li><a href="">Return policy</a></li>
                 </ul>
             </div>
-            <div class="col-lg-2 col-md-12 col-sm-12 col-xm-12 footer-border">
+            <div class="col-lg-2 col-md-12 col-sm-12 col-xm-12 footer-border fb-3">
                 <p class="footer-headings">Shop</p>
                 <ul class="footer-list">
                     <li><a href="">Jams & Chutneys</a></li>
@@ -71,7 +71,7 @@
                     <li><a href="">Vegetarian</a></li>
                 </ul>
             </div>
-            <div class="col-lg-4 col-md-12 col-sm-12 col-xm-12 footer-border">
+            <div class="col-lg-4 col-md-12 col-sm-12 col-xm-12 footer-border fb-end">
                 <p class="footer-headings">Contact Us</p>
                 <ul class="footer-list">
                     <li><span>Address:</span>address goes here</li>
@@ -96,9 +96,8 @@
                 </p>
             </div>
             <div class="col-lg-6 col-md-12 col-sm-12 col-xm-12 right-corner">
-                <span><a href="" class="active">Privacy Policy &nbsp;| &nbsp; </a></span>
-                <span><a href="">Terms of Use &nbsp;|&nbsp; </a></span>
-                <span><a href="">Sales and Refunds &nbsp; </a></span>
+                <span>Solutions By&nbsp; : &nbsp;</span>
+                <span class="company"><a href="https://yogeemedia.com/">Yogee Media</a><i class="fad fa-heart"></i></span>
             </div>
         </div>
     </div>
