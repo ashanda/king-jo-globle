@@ -527,14 +527,13 @@ get_header();  ?>
                                     <p><?php echo $product_price; ?></p>
                                 </div>
                                 <?php if ($product->is_type('simple')) : ?>
-                                    <div class="btns">
+                                    <div class="btns two_btns">
                                         <a class="main-button galley-grid-btn" href="<?php echo esc_url($product_permalink); ?>">View</a>
                                         <?php echo do_shortcode('[add_to_cart id="' . $product->get_id() . '"]'); ?>
                                     </div>
                                 <?php else : ?>
                                     <div class="btns">
-                                        <a class="main-button galley-grid-btn" href="<?php echo esc_url($product_permalink); ?>">View</a>
-
+                                        <a class="main-button galley-grid-btn d-block" href="<?php echo esc_url($product_permalink); ?>">View</a>
                                     </div>
                                 <?php endif; ?>
                             </div>

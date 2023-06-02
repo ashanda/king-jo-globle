@@ -123,19 +123,17 @@ if (post_password_required()) {
 							</span>
 						</p>
 
-						<div class="box-features">
+						<!-- <div class="box-features">
 							<p class="b-fea">Weight:</p>
 							<div class="box-box">
 								<?php
 								global $product;
 
 								if ($product->is_type('variable')) {
-									// Get available variations
 									$available_variations = $product->get_available_variations();
 
 									if (!empty($available_variations)) {
 
-										// Loop through each variation
 										foreach ($available_variations as $variation) {
 											$variation_id = $variation['variation_id'];
 											$variation_obj = wc_get_product($variation_id);
@@ -143,7 +141,6 @@ if (post_password_required()) {
 
 											echo '<p class="bs-2">';
 
-											// Display variation attributes
 											foreach ($variation_attributes as $attribute_name => $attribute_value) {
 												echo $attribute_value;
 											}
@@ -154,7 +151,7 @@ if (post_password_required()) {
 								}
 								?>
 							</div>
-						</div>
+						</div> -->
 
 						<div class="box-features">
 							<p class="b-fea">Speciality:</p>
@@ -197,25 +194,26 @@ if (post_password_required()) {
 							}
 							?>
 						</p>
+					</div>
 
-
-
+					<div class="box-features">
+						<?php
+						do_action('woocommerce_single_product_summary');
+						?>
 					</div>
 
 
-					<div class="box-features">
+					<!-- <div class="box-features">
 						<p class="b-fea">Availability:</p>
 						<div class="quantity ms-1">
 							<button class="decrease">-</button>
 							<input type="number" class="count" value="1">
 							<button class="increase">+</button>
 						</div>
-
 						<script>
 							const decreaseBtn = document.querySelector('.decrease');
 							const increaseBtn = document.querySelector('.increase');
 							const countInput = document.querySelector('.count');
-
 							decreaseBtn.addEventListener('click', () => {
 								let count = parseInt(countInput.value);
 								if (count > 1) {
@@ -223,7 +221,6 @@ if (post_password_required()) {
 									countInput.value = count;
 								}
 							});
-
 							increaseBtn.addEventListener('click', () => {
 								let count = parseInt(countInput.value);
 								count++;
@@ -231,15 +228,13 @@ if (post_password_required()) {
 							});
 						</script>
 					</div>
-
 					<div class="box-features">
 						<div class="cat-button-add">
 							<div class="mt-2">
 								<a class="inq_btn" target="_blank" href="mailto:your-email@example.com">Inqurey</a>
 							</div>
-
 						</div>
-					</div>
+					</div> -->
 
 					<div class="whish">
 						<i class="far fa-heart"></i>
@@ -251,7 +246,7 @@ if (post_password_required()) {
 					</div>
 
 					<div class="last-div-sec">
-					<i class="fa-regular fa-magnifying-glass"></i>
+						<i class="fa-regular fa-magnifying-glass"></i>
 						<p class="f-search">Need to Know More ?</p>
 					</div>
 

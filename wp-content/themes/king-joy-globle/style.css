@@ -74,8 +74,10 @@ ul {
 }
 
 .row {
-	padding: 0 !important;
-	margin: 0 !important;
+	padding-left: 0 !important;
+	padding-right: 0 !important;
+	margin-left: 0 !important;
+	margin-right: 0 !important;
 }
 
 a {
@@ -4231,16 +4233,211 @@ a.btn.btn-primary {
 		left: 35%;
 	}
 
-	/*cart*/
-	.quantity {
-		display: block;
+}
+
+/* New Styles Kasun */
+
+a.navbar-brand img {
+	max-width: 100px;
+}
+
+.fixed-top {
+	transition: 0.3s ease-in-out;
+}
+
+.nav-active {
+	background-color: #000000a3;
+}
+
+img.vert-move {
+	animation-name: mover;
+	animation-duration: 5s;
+	animation-iteration-count: infinite;
+	animation-direction: alternate;
+}
+
+
+img.b-2 {
+	animation-delay: 1s;
+	transform: rotate(0);
+}
+
+img.b-3 {
+	animation-delay: 2s;
+	transform: rotate(0);
+}
+
+img.b-4 {
+	animation-delay: 3s;
+	transform: rotate(0);
+}
+
+img.b-5 {
+	animation-delay: -1s;
+	transform: rotate(0);
+}
+
+img.b-6 {
+	animation-delay: -2s;
+	transform: rotate(0);
+}
+
+img.b-7 {
+	animation-delay: -3s;
+}
+
+@keyframes mover {
+	0% {
+		transform: translate(0, 0);
 	}
+
+	25% {
+		transform: translate(5px, 1px);
+	}
+
+	50% {
+		transform: translate(0, 2px);
+	}
+
+	75% {
+		transform: translate(1px, 5px);
+	}
+
+	100% {
+		transform: translate(0, 0);
+	}
+}
+
+.column.nature .name-s {
+	position: relative !important;
+	left: 10px !important;
+}
+
+.column.nature .price-p {
+	right: 20px !important;
+}
+
+.prod_sec .column {
+	transition: 0.5s;
+}
+
+.prod_sec .column:hover {
+	border-radius: 10px;
+	-webkit-box-shadow: 0px 0px 15px 5px rgba(0, 0, 0, 0.58);
+	box-shadow: 0px 0px 15px 5px rgba(0, 0, 0, 0.58);
+}
+
+.s-icons .fab {
+	color: #000;
+}
+
+main#main {
+	padding-top: 0;
+}
+
+nav.woocommerce-breadcrumb {
+	padding-left: 20px !important;
+	color: #fff !important;
+	font-weight: bold;
+}
+
+nav.woocommerce-breadcrumb a {
+	color: #fff !important;
+	font-weight: bold;
+}
+
+header.woocommerce-products-header {
+	margin-bottom: 0;
+}
+
+.woocommerce .woocommerce-result-count {
+	margin: 0;
+	margin-top: 20px;
+}
+
+.products .product .attachment-woocommerce_thumbnail {
+	transition: transform 0.5s ease;
+}
+
+.products .product:hover .attachment-woocommerce_thumbnail {
+	transform: scale(1.1);
+}
+
+.btns .woocommerce-Price-amount {
+	display: none;
+}
+
+.btns p {
+	border: none !important;
+	padding: 0 !important;
+	width: fit-content;
+	margin-bottom: 0;
+	display: inline;
+}
+
+.main-button.galley-grid-btn {
+	background: #FDC92E;
+	border-radius: 28px;
+	padding: 15px 30px;
+	font-size: 15px;
+	color: #515151;
+	font-weight: bold;
+}
+
+/* Hide cart section in single product page */
+.summary.entry-summary .cart {
+	/* display: none; */
+}
+
+/* Hide add to cart button */
+a.button.wp-element-button.product_type_simple.add_to_cart_button.ajax_add_to_cart {
+	/* display: none; */
+}
+
+.btn_inq {
+	padding: 15px 34px;
+	background: #F14E18;
+	margin-bottom: 10px;
+	margin-left: 15px;
+}
+
+ul.products.columns-4 {
+	margin-bottom: 50px;
+}
+
+div#tab-description h2,
+section.related.products h2 {
+	display: block;
+}
 
 	div#navbarSupportedContent {
 		background: #012607ad;
 		border-radius: 15px;
 	}
 
+/* add padding on top of single=product */
+.single-product #primary {
+	padding-top: 60px;
+}
+
+ul.tabs.wc-tabs li:hover {
+	background: #5b5b5b;
+}
+
+/* Contact Us page */
+.page-template-page-contact .cont input[type="text"] {
+	background-color: #fff;
+	border: 1px solid #ced4da;
+	color: #000;
+	width: 100%;
+}
+
+.page-template-page-contact .btn-primary {
+	background-color: #0a58ca;
+	border-color: #0a58ca;
+}
+
+@media (max-width: 576px) {
 	.woocommerce div.product div.images.woocommerce-product-gallery {
 		padding: 0 !important;
 	}
