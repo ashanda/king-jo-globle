@@ -212,6 +212,5 @@ add_filter('woocommerce_product_add_to_cart_text', 'woo_custom_cart_button_text'
 
 function woo_custom_cart_button_text()
 {
-
 	return __('Buy', 'woocommerce');
 }
