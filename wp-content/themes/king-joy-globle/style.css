@@ -295,16 +295,16 @@ img.inner-img.w-100 {
 }
 
 p.top-text {
-	font-family: 'Playfair Display';
-	font-style: normal;
-	font-weight: 400;
-	font-size: 18px;
-	line-height: 26px;
-	display: flex;
-	/* align-items: center; */
-	text-transform: capitalize;
-	color: #666666;
-	width: 182px;
+    font-family: 'Luckiest Guy';
+    font-style: normal;
+    font-weight: 100;
+    font-size: 18px;
+    line-height: 26px;
+    display: flex;
+    /* align-items: center; */
+    text-transform: capitalize;
+    color: #666666;
+    width: 182px;
 }
 
 p.bottom-text {
@@ -4083,7 +4083,7 @@ a.btn.btn-primary {
 		position: absolute;
 		width: 100%;
 		max-width: 300px;
-		left: 73px;
+		left: 58px;
 		height: auto;
 		top: -347px;
 	}

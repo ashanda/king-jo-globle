@@ -45,7 +45,7 @@ get_header();  ?>
 </div>
 
 <div class="absolute-all-images">
-    <img src="" alt="">
+    <img src="/" alt="">
 </div>
 
 <div class="container-fluid middle-content-first">
