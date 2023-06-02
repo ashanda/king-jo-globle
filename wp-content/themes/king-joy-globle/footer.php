@@ -48,7 +48,7 @@
                     tation ullamco laboris nisi ut aliquip ex ea
                     commodo. Build your online store with
                     WooCommerce the most popular </p>
-                <button class="main-button"><a href="">Shop Now</a></button>
+                <button class="main-button"><a href="">Read More</a></button>
 
             </div>
             <div class="col-lg-2 col-md-12 col-sm-12 col-xm-12 footer-border fb-2">
