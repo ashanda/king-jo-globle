@@ -44,6 +44,10 @@ get_header();  ?>
 
 </div>
 
+<div class="absolute-all-images">
+    <img src="" alt="">
+</div>
+
 <div class="container-fluid middle-content-first">
     <div class="main-s">
         <div class="row main-items">
