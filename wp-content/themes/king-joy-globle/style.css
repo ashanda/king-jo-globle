@@ -3779,12 +3779,12 @@ header.woocommerce-products-header {
 
 /* Hide cart section in single product page */
 .summary.entry-summary .cart {
-	display: none;
+	/* display: none; */
 }
 
 /* Hide add to cart button */
 a.button.wp-element-button.product_type_simple.add_to_cart_button.ajax_add_to_cart {
-	display: none;
+	/* display: none; */
 }
 
 .btn_inq {
@@ -3925,8 +3925,6 @@ ul.tabs.wc-tabs li:hover {
 	}
 
 }
-
-
 
 .navbar .navbar-toggler-icon {
 	background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 30 30' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(0, 0, 0, 0.5)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 7h22M4 15h22M4 23h22'/%3E%3C/svg%3E");

@@ -191,14 +191,15 @@ function setup_woocommerce_support()
 require_once get_template_directory() . '/class-wp-bootstrap-navwalker.php';
 
 
-function add_view_product_btn()
-{
-	$product_permalink = get_permalink();
-	echo '<a href="' . esc_url($product_permalink) . '" class="button">View Product</a>';
-}
-add_action('woocommerce_after_shop_loop_item', 'add_view_product_btn', 1);
+// add_view_product_btn
+// function add_view_product_btn()
+// {
+// 	$product_permalink = get_permalink();
+// 	echo '<a href="' . esc_url($product_permalink) . '" class="button">View Product</a>';
+// }
+// add_action('woocommerce_after_shop_loop_item', 'add_view_product_btn', 1);
 
-
+// add_inqurey_btn
 // function add_inqurey_btn() {
 //     global $product;
 //     echo '<a href="mailto:your-email@example.com" class="button btn_inq">Inqurey</a>';
