@@ -36,13 +36,13 @@ do_action('woocommerce_before_add_to_cart_form'); ?>
 		<div class="variations">
 			<?php foreach ($attributes as $attribute_name => $options) : ?>
 				<div class="row">
-					<div class="col-3 ps-0">
+					<div class="col-4 ps-0">
 						<p class="b-fea">
 							<?php echo wc_attribute_label($attribute_name); // WPCS: XSS ok. 
 							?> :
 						</p>
 					</div>
-					<div class="col-9">
+					<div class="col-8">
 						<?php
 						wc_dropdown_variation_attribute_options(
 							array(

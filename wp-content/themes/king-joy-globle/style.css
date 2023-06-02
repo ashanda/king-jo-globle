@@ -3904,7 +3904,6 @@ form.cart,
 	color: #fff;
 	padding: 5px 10px;
 	border-radius: 5px;
-	margin-left: 5px;
 }
 
 .reset_variations:hover {
@@ -3927,6 +3926,7 @@ button.single_add_to_cart_button.button.alt.wp-element-button {
 	border: 1px #000 solid;
 	padding: 5px;
 	background-color: #fff;
+	margin-bottom: 10px;
 }
 
 
