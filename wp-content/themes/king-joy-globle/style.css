@@ -4446,3 +4446,170 @@ a.btn.btn-primary {
 		padding-left: 0px;
 	}
 }
+
+/*2023-06-05-----< Sammani*/
+
+/*cart page*/
+.woocommerce-cart  p.b-fea {
+    font-size: 15px;
+    padding-top: 25px;
+}
+
+.woocommerce-cart .cart_totals h2 {
+    font-size: 21px;
+    text-align: center;
+    padding-bottom: 10px;
+}
+
+.woocommerce-cart button.button.wp-element-button {
+    background: #81C408;
+}
+
+.woocommerce-cart a.checkout-button.button.alt.wc-forward.wp-element-button {
+    background: #F14E18;
+}
+
+.woocommerce-cart  .cart_totals {
+    padding: 20px;
+}
+
+.woocommerce-cart main#primary {
+    padding-top: 180px;
+}
+
+.woocommerce-cart header.entry-header h1 {
+	font-size: 40px;
+    text-align: center;
+    background: #129C51;
+    padding: 0px;
+    padding-bottom: 7px;
+    margin-bottom: 33px;
+}
+
+.woocommerce-cart a.checkout-button.button.alt.wc-forward.wp-element-button:hover {
+    background-color: black;
+}
+
+button.button.wp-element-button:hover {
+    background-color: #FDC92E !important;
+}
+
+.full-content-sub {
+    position: relative;
+}
+
+img.g-1 {
+    max-width: 77px;
+    position: absolute;
+    top: 1611px;
+    left: 20px;
+}
+
+img.g-2 {
+    max-width: 98px;
+    position: absolute;
+    top: 1288px;
+    left: 375px;
+    z-index: 5;
+    transform: rotate(387deg);
+    opacity: .6;
+}
+
+
+img.g-3 {
+    max-width: 100px;
+    position: absolute;
+    top: 1080px;
+    right: 296px;
+    transform: rotate(347deg);
+    opacity: .6;
+}
+
+img.g-4 {
+    max-width: 83px;
+    position: absolute;
+    top: 2016px;
+    right: 324px;
+    opacity: .7;
+}
+
+img.g-5 {
+    max-width: 130px;
+    position: absolute;
+    top: 2536px;
+    right: 45px;
+}
+
+img.g-6 {
+    max-width: 116px;
+    position: absolute;
+    top: 2759px;
+    left: 651px;
+    opacity: 0.4;
+}
+
+img.g-7 {
+    max-width: 124px;
+    position: absolute;
+    top: 2895px;
+    opacity: .5;
+}
+
+img.g-8 {
+    max-width: 73px;
+    position: absolute;
+    top: 317px;
+    left: 10px;
+    transform: rotate(368deg);
+    opacity: 0.7;
+}
+
+img.g-9 {
+    max-width: 90px;
+    position: absolute;
+    top: 3200px;
+    right: 20px;
+    opacity: 0.4;
+}
+
+img.g-10 {
+    max-width: 81px;
+    position: absolute;
+    top: 3824px;
+    left: 560px;
+    z-index: 2;
+    opacity: 0.7;
+}
+
+img.g-11 {
+    max-width: 101px;
+    top: 4009px;
+    position: absolute;
+    left: 151px;
+    z-index: 2;
+    opacity: 0.56;
+}
+
+img.g-12 {
+    position: absolute;
+    top: 4160px;
+    max-width: 96px;
+    right: 30px;
+}
+
+img.g-13 {
+    max-width: 100px;
+    position: absolute;
+    top: 4502px;
+    right: 60px;
+    opacity: 0.3;
+}
+
+img.g-14 {
+    max-width: 96px;
+    position: absolute;
+    bottom: -210px;
+    left: 26px;
+    transform: rotate(339deg);
+    opacity: 1.1;
+}
