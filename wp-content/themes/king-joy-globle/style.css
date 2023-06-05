@@ -1831,10 +1831,10 @@ h2.woocommerce-loop-product__title {
 }
 
 a.button.wp-element-button.product_type_simple.add_to_cart_button.ajax_add_to_cart {
-	background: #FDC92E;
-	border-radius: 28px;
-	padding: 15px 30px;
-	font-size: 15px;
+    background: #FDC92E;
+    border-radius: 28px;
+    padding: 15px 55px;
+    font-size: 15px;
 }
 
 .woocommerce ul.products li.product .button {
@@ -2247,6 +2247,30 @@ section.related.products {
 }
 
 
+@media (max-width: 1200px) {
+	button.navbar-toggler.closer {
+		float: right;
+		margin-top: 10px;
+		font-weight: 600;
+		margin-right: 10px;
+		color: #ffffff94;
+		/* padding: 20px; */
+		background: none;
+		border: none !important;
+	}
+
+	div#navbarSupportedContent {
+		background: #012607ad;
+		border-radius: 15px;
+	}
+
+	.first-nav-items ul li a span:hover {
+		transition: 0.5s;
+		color: #11713D;
+		cursor: pointer;
+	}
+}
+
 @media (max-width: 1199.98px) {}
 
 @media (max-width: 991.98px) {
@@ -2501,7 +2525,7 @@ section.related.products {
 	}
 
 	.row.details-ab {
-		padding-top: 200px;
+		padding-top: 5px;
 	}
 
 	img.large-img {
@@ -3503,7 +3527,7 @@ section.related.products {
 		position: absolute;
 		width: 100%;
 		max-width: 300px;
-		left: 73px;
+		left: 54px;
 		height: auto;
 		top: -347px;
 	}
@@ -3600,13 +3624,13 @@ section.related.products {
 	}
 
 	.man-section-box {
-		padding: 50px 40px;
-		margin: 0px 15px;
+		padding: 20px 0px;
+		margin: 0px 7px;
 	}
 
 	.container.the-man-section p.m-title {
 		font-size: 33px;
-		padding-left: 15px;
+		padding-left: 8px;
 	}
 
 	img.man {
@@ -3620,7 +3644,7 @@ section.related.products {
 	}
 
 	img.m-1 {
-		max-width: 95px;
+		max-width: 82px;
 		top: 26px;
 		left: 249px;
 	}
@@ -3650,6 +3674,8 @@ section.related.products {
 		top: 43%;
 		left: 35%;
 	}
+
+	
 
 }
 
@@ -3807,9 +3833,11 @@ header.woocommerce-products-header {
 }
 
 .home a.button.wp-element-button.product_type_simple.add_to_cart_button.ajax_add_to_cart {
-	border-top-left-radius: 0px;
-	border-bottom-left-radius: 0px;
-	padding-bottom: 14px;
+    border-top-left-radius: 0px;
+    border-bottom-left-radius: 0px;
+    padding-bottom: 14px;
+    padding-left: 32px;
+    padding-right: 32px;
 }
 
 .home .two_btns .main-button {
@@ -3981,7 +4009,7 @@ button.single_add_to_cart_button.button.alt.wp-element-button {
 	}
 
 	.footer-space {
-		padding: 10px;
+		padding: 0px;
 	}
 
 	p.top-text {
@@ -4100,15 +4128,15 @@ table.shop_table.shop_table_responsive.cart.woocommerce-cart-form__contents th {
 }
 
 .shop_table input#coupon_code {
-	background: #FDC92E;
-	color: #000;
-	font-weight: 700;
-	width: 220px;
-	padding: 6px 9px;
-	text-align: center;
-	border: none;
-	font-size: 15px;
-	border-radius: 5px;
+    background: #f1f1f1;
+    color: #000;
+    font-weight: 500;
+    width: 220px;
+    padding: 6px 9px;
+    text-align: center;
+    border: none;
+    font-size: 12px;
+    border-radius: 5px;
 }
 
 .shop_table .woocommerce .cart .button,
@@ -4339,9 +4367,9 @@ button.main-button.center-gallery-btn:hover {
 	color: #11713D;
 }
 
-a.btn.btn-primary {
-	width: 120px;
-	padding: 10px 10px;
+form#contact-form a.btn.btn-primary {
+    width: 150px;
+    padding: 10px 10px;
 }
 
 .col-lg-6.col-md-12.col-sm-12.col-xm-12.left-side {
@@ -4385,12 +4413,12 @@ a.btn.btn-primary {
 	}
 	
 	.about-heading {
-		padding: 0px 5px;
+		padding: 0px 7px;
 	}
 	
 	.col-lg-6.col-md-6.col-sm-6.col-xm-12.real-img-des .d1 {
 		width: 100%;
-		padding: 0px 10px;
+		padding: 0px 5px;
 	}
 	
 	.footer-section {
@@ -4432,11 +4460,7 @@ a.btn.btn-primary {
 		left: 156px;
 	}
 	
-	.first-nav-items ul li a span:hover {
-		transition: 0.5s;
-		color: #11713D;
-		cursor: pointer;
-	}
+	
 	
 	.col-lg-6.col-md-12.col-sm-12.col-xm-12.left-side {
 		padding-left: 0px;
@@ -4499,121 +4523,194 @@ button.button.wp-element-button:hover {
     position: relative;
 }
 
-img.g-1 {
+img.g-1.vert-move {
     max-width: 77px;
     position: absolute;
     top: 1611px;
     left: 20px;
+    animation-delay: 500ms;
 }
 
-img.g-2 {
+img.g-2.vert-move {
     max-width: 98px;
     position: absolute;
-    top: 1288px;
-    left: 375px;
+    top: 1306px;
+    left: 243px;
     z-index: 5;
     transform: rotate(387deg);
     opacity: .6;
+	animation-delay: 700ms;
 }
 
-
-img.g-3 {
+img.g-3.vert-move {
     max-width: 100px;
     position: absolute;
     top: 1080px;
     right: 296px;
     transform: rotate(347deg);
     opacity: .6;
+	animation-delay: 900ms;
 }
 
-img.g-4 {
-    max-width: 83px;
+img.g-4.vert-move {
+    max-width: 91px;
     position: absolute;
-    top: 2016px;
+    top: 1925px;
     right: 324px;
     opacity: .7;
+	animation-delay: 1000ms;
 }
 
-img.g-5 {
+img.g-5.vert-move {
     max-width: 130px;
     position: absolute;
-    top: 2536px;
+    top: 2460px;
     right: 45px;
+	animation-delay: 1500ms;
 }
 
-img.g-6 {
+img.g-6.vert-move {
     max-width: 116px;
     position: absolute;
     top: 2759px;
-    left: 651px;
+    left: 236px;
     opacity: 0.4;
+    z-index: 5;
+	animation-delay: 2000ms;
 }
 
-img.g-7 {
+img.g-7.vert-move {
     max-width: 124px;
     position: absolute;
     top: 2895px;
     opacity: .5;
+	animation-delay: 2400ms;
 }
 
-img.g-8 {
+img.g-8.vert-move {
     max-width: 73px;
     position: absolute;
     top: 317px;
     left: 10px;
     transform: rotate(368deg);
     opacity: 0.7;
+	animation-delay: 2800ms;
 }
 
-img.g-9 {
+img.g-9.vert-move {
     max-width: 90px;
     position: absolute;
     top: 3200px;
     right: 20px;
     opacity: 0.4;
+	animation-delay: 3000ms;
 }
 
-img.g-10 {
+img.g-10.vert-move {
     max-width: 81px;
     position: absolute;
-    top: 3824px;
-    left: 560px;
+    top: 3727px;
+    right: 560px;
     z-index: 2;
     opacity: 0.7;
+	animation-delay: 3500ms;
 }
 
-img.g-11 {
+img.g-11.vert-move {
     max-width: 101px;
-    top: 4009px;
+    top: 3913px;
     position: absolute;
     left: 151px;
     z-index: 2;
     opacity: 0.56;
+	animation-delay: 4000ms;
 }
 
-img.g-12 {
+img.g-12.vert-move {
     position: absolute;
     top: 4160px;
     max-width: 96px;
     right: 30px;
+	animation-delay: 5000ms;
 }
 
-img.g-13 {
+img.g-13.vert-move {
     max-width: 100px;
     position: absolute;
     top: 4502px;
     right: 60px;
     opacity: 0.3;
+	animation-delay: 5500ms;
 }
 
-img.g-14 {
+img.g-14.vert-move {
     max-width: 96px;
     position: absolute;
     bottom: -210px;
     left: 26px;
     transform: rotate(339deg);
     opacity: 1.1;
+	animation-delay: 6000ms;
 }
+
+
+ul.list-unstyled.mb-0 li {
+    display: flex;
+    /* float: left; */
+}
+
+.contact-us-details.py-3.py-lg-5 .container, .container-lg, .container-md, .container-sm, .container-xl {
+    max-width: 100%;
+    padding: 80px 50px;
+}
+
+p.map-phone {
+    padding-top: 26px;
+    padding-left: 10px;
+}
+
+p.map-envelope {
+    padding-top: 25px;
+    padding-left: 15px;
+}
+
+.fa-2x {
+    font-size: 1.5em;
+}
+
+p.map-maker {
+    padding-left: 13px;
+    text-align: left;
+}
+
+.woocommerce ul.products li.product .button {
+    display: inline-block;
+    margin-top: 1em;
+    background: #FDC92E;
+    border-radius: 28px;
+    padding: 15px 55px;
+    border: none;
+    font-size: 15px;
+}
+
+li.product.type-product:hover {
+    border-radius: 10px;
+    -webkit-box-shadow: 0px 0px 15px 5px rgba(0, 0, 0, 0.58);
+    box-shadow: 0px 0px 15px 5px rgba(0, 0, 0, 0.58);
+}
+
+.woocommerce-shop ul.products.columns-4 {
+    padding: 0px 50px;
+}
+
+.woocommerce-shop img.attachment-woocommerce_thumbnail.size-woocommerce_thumbnail {
+	padding-top: 50px;
+}
+
+.woocommerce-shop a.button.wp-element-button.product_type_simple.add_to_cart_button.ajax_add_to_cart {
+    margin-bottom: 40px;
+}
+
 
 
 /* New styles June 5 */
@@ -4703,4 +4800,197 @@ p.top-text {
 		height: 350px;
 		margin-top: 20px;
 	}
+
+
+
+
+	/*2023-06-05---------< Samman's style*/
+	p.main-description {
+		display: none;
+	}
+
+	img.g-3 {
+		max-width: 50px;
+		top: 1224px;
+		right: 53px;
+	}
+
+	img.g-1 {
+		max-width: 62px;
+		top: 1778px;
+		left: 20px;
+		z-index: 2;
+	}
+
+	img.g-4 {
+		max-width: 47px;
+		top: 1978px;
+		right: 90px;
+	}
+
+	img.g-5 {
+		max-width: 78px;
+		top: 2443px;
+		right: 45px;
+	}
+
+	img.g-6 {
+		max-width: 86px;
+		top: 2635px;
+		left: 10px;
+	}
+
+	img.g-7 {
+		max-width: 94px;
+		top: 2905px;
+		right: 22px;
+	}
+
+	img.g-9 {
+		max-width: 77px;
+		top: 3147px;
+		transform: rotate(379deg);
+	}
+
+	img.g-10 {
+		max-width: 81px;
+		top: 8049px;
+		left: 223px;
+	}
+
+	img.g-14 {
+		display: none;
+	}
+
+	/*about us page*/
+	.details-of-about {
+		margin-top: 40px;
+	}
+
+	.row.ab {
+		padding-top: 10px;
+	}
+
+	.about-card {
+		margin-top: 885px;
+	}
+
+	.about-card {
+		margin-top: 810px;
+		padding: 0px 0px;
+	}
+
+	.container.about-service {
+		max-width: 100%;
+		padding: 70px 0px;
+	}
+
+	.abt-box {
+		width: 337px;
+	}
+
+	.container.the-man-section {
+		padding-left: 0px;
+		padding-right: 0px;
+	}
+
+	.col-lg-10.col-md-10.col-sm-10.col-xm-10.about-icons-details {
+		padding: 0px 0px;
+	}
+
+	.row.ab-card .col-lg-4.col-md-4.cpl-sm-12.col-xm-12 {
+		padding: 0px 18px;
+	}
+
+	.row.footer-middle {
+		margin-top: 0px !important;
+	}
+
+	.hero {
+		padding: 0px 10px;
+	}
+
+	.main-s {
+		padding: 0px 10px;
+	}
+
+	.rectangle-box {
+		margin: 0px;
+	}
+
+	.rectangle-box {
+		padding-left: 20px;
+		padding-right: 20px;
+	}
+
+	span.name-s {
+		top: 10px;
+	}
+
+	.cont.container.my-5 {
+		padding-top: 90px;
+	}
+
+	.cont.container.my-5 {
+		padding: 0px 0px;
+	}
+
+	.contact-us-details .col-md-6 {
+		padding: 0px 0px;
+	}
+
+	.cont.container.my-5 {
+		padding: 80px 0px;
+	}
+
+	.cont.container section.mb-4.mt-5.mt-md-0 {
+		padding: 0px 5px;
+	}
+
+
+	/*navbar*/
+	.highlight-area {
+		position: absolute;
+		top: 122px;
+	}
+
+	p.main-test {
+		padding-top: 100px;
+		position: absolute;
+	}
+
+	.hero-text-area {
+		margin-top: 165px;
+		height: 300px;
+		top: 206px;
+		width: 100%;
+	}
+
+	p.main-test {
+		width: 338px;
+		font-size: 41px;
+	}
+
+	button.main-button.main-b {
+		top: 238px;
+		position: absolute;
+	}
+
+	.main-s {
+		margin-top: 115px;
+	}
+
+	.woocommerce-shop ul.products.columns-4 {
+		padding: 0px 0px;
+	}
+
+	.shop_table input#coupon_code {
+		width: 177px;
+		padding: 6px 9px;
+	}
+
 }
+
+
+
+

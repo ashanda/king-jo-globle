@@ -56,7 +56,11 @@
                         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                             <span class="navbar-toggler-icon"></span>
                         </button>
+                       
                         <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                        <button class="navbar-toggler closer" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                            <span class="">X</span>
+                        </button>
                             <div class="first-nav-items">
                                 <?php
                                 wp_nav_menu(

@@ -6,8 +6,8 @@ Template Name: AboutUs
 get_header();  ?>
 
 <div class="full-content">
-
-<!-- Start about-us section -->
+<div class="full-content-sub">
+    <!-- Start about-us section -->
 <div class="about-us-details">
     <div class="row details-ab">
         <div class="col-lg-6 col-md-6 col-sm-12 col-xm-12 about-left">
@@ -309,6 +309,9 @@ get_header();  ?>
 </div>
 
 </div>
+
+</div>
+
 
 
 

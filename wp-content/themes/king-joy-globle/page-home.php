@@ -7,20 +7,20 @@ get_header();  ?>
 
 <div class="full-content-sub">
 
-    <img class="g-1" src="<?php echo get_template_directory_uri(); ?>/inc/king-images/veg_img18-removebg-preview.png" alt="">
-    <img class="g-2" src="<?php echo get_template_directory_uri(); ?>/inc/king-images/veg_img12-removebg-preview.png" alt="">
-    <img class="g-3" src="<?php echo get_template_directory_uri(); ?>/inc/king-images/veg_img6-removebg-preview.png" alt="">
-    <img class="g-4" src="<?php echo get_template_directory_uri(); ?>/inc/king-images/veg_img13-removebg-preview.png" alt="">
-    <img class="g-5" src="<?php echo get_template_directory_uri(); ?>/inc/king-images/veg_img15-removebg-preview.png" alt="">
-    <img class="g-6" src="<?php echo get_template_directory_uri(); ?>/inc/king-images/veg_img16-removebg-preview.png" alt="">
-    <img class="g-7" src="<?php echo get_template_directory_uri(); ?>/inc/king-images/veg_img5-removebg-preview.png" alt="">
-    <img class="g-8" src="<?php echo get_template_directory_uri(); ?>/inc/king-images/veg_img11-removebg-preview.png" alt="">
-    <img class="g-9" src="<?php echo get_template_directory_uri(); ?>/inc/king-images/veg_img20-removebg-preview.png" alt="">
-    <img class="g-10" src="<?php echo get_template_directory_uri(); ?>/inc/king-images/veg_img22-removebg-preview.png" alt="">
-    <img class="g-11" src="<?php echo get_template_directory_uri(); ?>/inc/king-images/veg_img8-removebg-preview.png" alt="">
-    <img class="g-12" src="<?php echo get_template_directory_uri(); ?>/inc/king-images/veg_img15-removebg-preview.png" alt="">
-    <img class="g-13" src="<?php echo get_template_directory_uri(); ?>/inc/king-images/veg_img17-removebg-preview.png" alt="">
-    <img class="g-14" src="<?php echo get_template_directory_uri(); ?>/inc/king-images/veg_img3-removebg-preview.png" alt="">
+    <img class="g-1 vert-move" src="<?php echo get_template_directory_uri(); ?>/inc/king-images/veg_img18-removebg-preview.png" alt="">
+    <img class="g-2 vert-move" src="<?php echo get_template_directory_uri(); ?>/inc/king-images/veg_img12-removebg-preview.png" alt="">
+    <img class="g-3 vert-move" src="<?php echo get_template_directory_uri(); ?>/inc/king-images/veg_img6-removebg-preview.png" alt="">
+    <img class="g-4 vert-move" src="<?php echo get_template_directory_uri(); ?>/inc/king-images/veg_img13-removebg-preview.png" alt="">
+    <img class="g-5 vert-move" src="<?php echo get_template_directory_uri(); ?>/inc/king-images/veg_img15-removebg-preview.png" alt="">
+    <img class="g-6 vert-move" src="<?php echo get_template_directory_uri(); ?>/inc/king-images/veg_img16-removebg-preview.png" alt="">
+    <img class="g-7 vert-move" src="<?php echo get_template_directory_uri(); ?>/inc/king-images/veg_img5-removebg-preview.png" alt="">
+    <img class="g-8 vert-move" src="<?php echo get_template_directory_uri(); ?>/inc/king-images/veg_img11-removebg-preview.png" alt="">
+    <img class="g-9 vert-move" src="<?php echo get_template_directory_uri(); ?>/inc/king-images/veg_img20-removebg-preview.png" alt="">
+    <img class="g-10 vert-move" src="<?php echo get_template_directory_uri(); ?>/inc/king-images/veg_img22-removebg-preview.png" alt="">
+    <img class="g-11 vert-move" src="<?php echo get_template_directory_uri(); ?>/inc/king-images/veg_img8-removebg-preview.png" alt="">
+    <img class="g-12 vert-move" src="<?php echo get_template_directory_uri(); ?>/inc/king-images/veg_img15-removebg-preview.png" alt="">
+    <img class="g-13 vert-move" src="<?php echo get_template_directory_uri(); ?>/inc/king-images/veg_img17-removebg-preview.png" alt="">
+    <img class="g-14 vert-move" src="<?php echo get_template_directory_uri(); ?>/inc/king-images/veg_img3-removebg-preview.png" alt="">
     <!-- Start Hero Section -->
     <div class="hero">
         <section id="Hero-Section" style="background-image: url(<?php echo get_template_directory_uri(); ?>/inc/king-images/bannernew.png);">
@@ -38,7 +38,7 @@ get_header();  ?>
                             maximus metus eu eros tincidunt
                             <!-- <?php echo get_template_directory_uri(); ?>/incidunt -->
                         </P>
-                        <button class="main-button"><a href="shop">Shop Now</a></button>
+                        <button class="main-button "><a href="shop">Shop Now</a></button>
                         <img class="h-2" data-scroll-speed="4" src="<?php echo get_template_directory_uri(); ?>/inc/king-images/Orange.png" alt="">
                         <img class="h-3" data-scroll-speed="8" src="<?php echo get_template_directory_uri(); ?>/inc/king-images/Mint.png" alt="">
                     </div>

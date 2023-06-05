@@ -28,7 +28,7 @@ get_header();  ?>
                         <div class="row">
 
                             <!--Grid column-->
-                            <div class="col-lg-9">
+                            <div class="col-lg-7">
                                 <form id="contact-form" name="contact-form" action="mail.php" method="POST">
                                     <div class="mb-3">
                                         <label for="name" class="form-label">Your name</label>
@@ -59,18 +59,18 @@ get_header();  ?>
                             </div>
                             <!--Grid column-->
 
-                            <div class="col-lg-3 text-center mt-5 mt-lg-0">
+                            <div class="col-lg-5 text-center mt-5 mt-lg-0">
                                 <ul class="list-unstyled mb-0">
                                     <li><i class="fas fa-map-marker-alt fa-2x"></i>
-                                        <p>San Francisco, CA 94126, USA</p>
+                                        <p class="map-maker">San Francisco, CA 94126, USA</p>
                                     </li>
 
                                     <li><i class="fas fa-phone mt-4 fa-2x"></i>
-                                        <p>+ 01 234 567 89</p>
+                                        <p class="map-phone">+ 01 234 567 89</p>
                                     </li>
                                     <br>
                                     <li><i class="fas fa-envelope mt-4 fa-2x"></i>
-                                        <p>test@email.com</p>
+                                        <p class="map-envelope">test@email.com</p>
                                     </li>
                                 </ul>
                             </div>
