@@ -6,8 +6,8 @@ Template Name: Home
 get_header();  ?>
 
 <div class="full-content-sub">
-    
-<img class="g-1" src="<?php echo get_template_directory_uri(); ?>/inc/king-images/veg_img18-removebg-preview.png" alt="">
+
+    <img class="g-1" src="<?php echo get_template_directory_uri(); ?>/inc/king-images/veg_img18-removebg-preview.png" alt="">
     <img class="g-2" src="<?php echo get_template_directory_uri(); ?>/inc/king-images/veg_img12-removebg-preview.png" alt="">
     <img class="g-3" src="<?php echo get_template_directory_uri(); ?>/inc/king-images/veg_img6-removebg-preview.png" alt="">
     <img class="g-4" src="<?php echo get_template_directory_uri(); ?>/inc/king-images/veg_img13-removebg-preview.png" alt="">
@@ -123,20 +123,31 @@ get_header();  ?>
                 <img class="t-s1" data-scroll-speed="5" src="<?php echo get_template_directory_uri(); ?>/inc/king-images/SeekPng (1).png" alt="">
             </div>
 
-        <div class="container center-area">
-            <div class="row center-area-items">
-                <div class="col col1">
-                    <img class="i-1 w-100" src="<?php echo get_template_directory_uri(); ?>/inc/king-images/pngwing 1.png" alt="">
+            <div class="container center-area">
+                <div class="owl-carousel owl-theme">
+                    <div class="item">
+                        <img class="w-100" src="<?php echo get_template_directory_uri(); ?>/inc/king-images/veg_pack.png" alt="">
+                    </div>
+                    <div class="item">
+                        <img class="w-100" src="<?php echo get_template_directory_uri(); ?>/inc/king-images/veg_pack.png" alt="">
+                    </div>
+                    <div class="item">
+                        <img class="w-100" src="<?php echo get_template_directory_uri(); ?>/inc/king-images/veg_pack.png" alt="">
+                    </div>
                 </div>
+                <!-- <div class="row center-area-items">
+                    <div class="col col1">
+                        <img class="i-1 w-100" src="<?php echo get_template_directory_uri(); ?>/inc/king-images/pngwing 1.png" alt="">
+                    </div>
 
                     <div class="col col2">
                         <img class="i-2 w-100" src="<?php echo get_template_directory_uri(); ?>/inc/king-images/pngwing 2.png" alt="">
                     </div>
 
-                <div class="col col3">
-                    <img class="i-3 w-100" src="<?php echo get_template_directory_uri(); ?>/inc/king-images/pngwing 1.png" alt="">
-                </div>
-            </div>
+                    <div class="col col3">
+                        <img class="i-3 w-100" src="<?php echo get_template_directory_uri(); ?>/inc/king-images/pngwing 1.png" alt="">
+                    </div>
+                </div> -->
 
                 <div class="bottom-dark-area" style="background-color: #11713D">
                     <p class="bottom-dark-area-main-text">New Arrivals</p>
