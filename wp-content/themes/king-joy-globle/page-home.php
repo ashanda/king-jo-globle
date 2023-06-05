@@ -111,8 +111,21 @@ get_header();  ?>
         </div>
 
         <div class="container center-area">
-            <div class="row center-area-items">
-                <div class="col col1">
+
+            <div class="owl-carousel owl-theme">
+                <div class="item">
+                    <img class="w-100" src="<?php echo get_template_directory_uri(); ?>/inc/king-images/veg_pack.png" alt="">
+                </div>
+                <div class="item">
+                    <img class="w-100" src="<?php echo get_template_directory_uri(); ?>/inc/king-images/veg_pack.png" alt="">
+                </div>
+                <div class="item">
+                    <img class="w-100" src="<?php echo get_template_directory_uri(); ?>/inc/king-images/veg_pack.png" alt="">
+                </div>
+            </div>
+
+
+            <!-- <div class="col col1">
                     <img class="i-1 w-100" src="<?php echo get_template_directory_uri(); ?>/inc/king-images/pngwing 1.png" alt="">
                 </div>
 
@@ -122,8 +135,9 @@ get_header();  ?>
 
                 <div class="col col3">
                     <img class="i-3 w-100" src="<?php echo get_template_directory_uri(); ?>/inc/king-images/pngwing 1.png" alt="">
-                </div>
-            </div>
+                </div> -->
+
+
 
             <div class="bottom-dark-area" style="background-color: #11713D">
                 <p class="bottom-dark-area-main-text">New Arrivals</p>

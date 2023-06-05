@@ -3859,6 +3859,7 @@ section.related.products h2 {
 ul.tabs.wc-tabs li:hover {
 	background: #5b5b5b;
 }
+
 .stock.available-on-backorder {
 	display: none;
 }
@@ -4360,89 +4361,178 @@ a.btn.btn-primary {
 		margin-bottom: 10px;
 		margin-left: 15px;
 	}
-	
+
 	ul.products.columns-4 {
 		margin-bottom: 50px;
 	}
-	
+
 	div#tab-description h2,
 	section.related.products h2 {
 		display: block;
 	}
-	
+
 	div#navbarSupportedContent {
 		background: #012607ad;
 		border-radius: 15px;
 	}
-	
+
 	/*new style*/
 	.about-heading {
 		padding: 0px 0px;
 	}
-	
+
 	.container.fake-real {
 		padding: 0px;
 	}
-	
+
 	.about-heading {
 		padding: 0px 5px;
 	}
-	
+
 	.col-lg-6.col-md-6.col-sm-6.col-xm-12.real-img-des .d1 {
 		width: 100%;
 		padding: 0px 10px;
 	}
-	
+
 	.footer-section {
 		padding-left: 5px;
 	}
-	
+
 	/*checkout*/
 	.woocommerce-checkout form.checkout.woocommerce-checkout {
 		margin: 0px 10px !important;
 	}
-	
+
 	.woocommerce-checkout form.checkout.woocommerce-checkout {
 		padding: 31px 10px !important;
 	}
-	
+
 	.woocommerce-checkout .woocommerce form .form-row .input-text,
 	.woocommerce-checkout .woocommerce-page form .form-row .input-text {
 		padding-top: 8px;
 		height: 138px;
 	}
-	
+
 	.woocommerce-additional-fields {
 		padding-top: 20px;
 	}
-	
+
 	input#coupon_code {
 		width: 169px;
 		padding: 14px 9px;
 	}
-	
-	
+
+
 	.coupon {
 		margin-bottom: 10px;
 	}
-	
+
 	img.h-1 {
 		bottom: 344px;
 		max-width: 67px;
 		left: 156px;
 	}
-	
+
 	.first-nav-items ul li a span:hover {
 		transition: 0.5s;
 		color: #11713D;
 		cursor: pointer;
 	}
-	
+
 	.col-lg-6.col-md-12.col-sm-12.col-xm-12.left-side {
 		padding-left: 0px;
 	}
-	
+
 	.right-side-content {
 		padding-left: 0px;
+	}
+}
+
+/* New styles June 5 */
+
+.owl-item.active.center {
+	-webkit-transform: scale(1.8);
+	transform: scale(1.8);
+}
+
+.owl-carousel .owl-stage-outer {
+	height: 35vw;
+}
+
+.owl-carousel .item {
+	padding: 20px;
+	margin: 20px;
+}
+
+p.bottom-text {
+	font-family: inherit;
+}
+
+p.top-text {
+	font-family: inherit;
+}
+
+.img-inner-content {
+	text-align: left;
+}
+
+@media (min-width: 991px) {
+	.slider-area .wrapper {
+		margin-top: 145px;
+	}
+}
+
+@media (max-width: 768px) {
+	section#middle-content {
+		height: auto;
+	}
+
+	.container.organic-rectangle {
+		margin-top: 50px;
+	}
+
+	.middle-content-second.container-fluid {
+		padding-bottom: 120px;
+		height: auto;
+	}
+}
+
+@media (max-width: 576px) {
+	p.high-text {
+		top: -94%;
+	}
+
+	p.main-description {
+
+		text-shadow: 0px 0px 20px #000000;
+	}
+
+	.rectangle-box {
+		margin-top: 0;
+	}
+
+	.rectangle-box {
+		padding-top: 0;
+	}
+
+	section#Hero-Section {
+		padding-bottom: 50px;
+	}
+
+	.top-text {
+		margin-bottom: 0;
+	}
+
+	.container.center-area {
+		padding: 0px 0px 0px 0px;
+	}
+
+	p.bottom-text {
+		font-size: 14px;
+	}
+
+	.owl-carousel .owl-stage-outer {
+		height: 350px;
+		margin-top: 20px;
 	}
 }
