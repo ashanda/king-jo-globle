@@ -7,20 +7,20 @@ get_header();  ?>
 
 <div class="full-content-sub">
 
-    <img class="g-1 vert-move" src="<?php echo get_template_directory_uri(); ?>/inc/king-images/veg_img18-removebg-preview.png" alt="">
-    <img class="g-2 vert-move" src="<?php echo get_template_directory_uri(); ?>/inc/king-images/veg_img12-removebg-preview.png" alt="">
-    <img class="g-3 vert-move" src="<?php echo get_template_directory_uri(); ?>/inc/king-images/veg_img6-removebg-preview.png" alt="">
-    <img class="g-4 vert-move" src="<?php echo get_template_directory_uri(); ?>/inc/king-images/veg_img13-removebg-preview.png" alt="">
-    <img class="g-5 vert-move" src="<?php echo get_template_directory_uri(); ?>/inc/king-images/veg_img15-removebg-preview.png" alt="">
-    <img class="g-6 vert-move" src="<?php echo get_template_directory_uri(); ?>/inc/king-images/veg_img16-removebg-preview.png" alt="">
-    <img class="g-7 vert-move" src="<?php echo get_template_directory_uri(); ?>/inc/king-images/veg_img5-removebg-preview.png" alt="">
-    <img class="g-8 vert-move" src="<?php echo get_template_directory_uri(); ?>/inc/king-images/veg_img11-removebg-preview.png" alt="">
-    <img class="g-9 vert-move" src="<?php echo get_template_directory_uri(); ?>/inc/king-images/veg_img20-removebg-preview.png" alt="">
-    <img class="g-10 vert-move" src="<?php echo get_template_directory_uri(); ?>/inc/king-images/veg_img22-removebg-preview.png" alt="">
-    <img class="g-11 vert-move" src="<?php echo get_template_directory_uri(); ?>/inc/king-images/veg_img8-removebg-preview.png" alt="">
-    <img class="g-12 vert-move" src="<?php echo get_template_directory_uri(); ?>/inc/king-images/veg_img15-removebg-preview.png" alt="">
-    <img class="g-13 vert-move" src="<?php echo get_template_directory_uri(); ?>/inc/king-images/veg_img17-removebg-preview.png" alt="">
-    <img class="g-14 vert-move" src="<?php echo get_template_directory_uri(); ?>/inc/king-images/veg_img3-removebg-preview.png" alt="">
+    <img class="g-1 vert-move2" src="<?php echo get_template_directory_uri(); ?>/inc/king-images/b_img3.png" alt="">
+    <img class="g-2 vert-move2" src="<?php echo get_template_directory_uri(); ?>/inc/king-images/veg_img12-removebg-preview.png" alt="">
+    <img class="g-3 vert-move2" src="<?php echo get_template_directory_uri(); ?>/inc/king-images/veg_img6-removebg-preview.png" alt="">
+    <img class="g-4 vert-move2" src="<?php echo get_template_directory_uri(); ?>/inc/king-images/veg_img13-removebg-preview.png" alt="">
+    <img class="g-5 vert-move2" src="<?php echo get_template_directory_uri(); ?>/inc/king-images/veg_img15-removebg-preview.png" alt="">
+    <img class="g-6 vert-move2" src="<?php echo get_template_directory_uri(); ?>/inc/king-images/veg_img16-removebg-preview.png" alt="">
+    <img class="g-7 vert-move2" src="<?php echo get_template_directory_uri(); ?>/inc/king-images/veg_img5-removebg-preview.png" alt="">
+    <img class="g-8 vert-move3" src="<?php echo get_template_directory_uri(); ?>/inc/king-images/veg_img11-removebg-preview.png" alt="">
+    <img class="g-9 vert-move3" src="<?php echo get_template_directory_uri(); ?>/inc/king-images/veg_img20-removebg-preview.png" alt="">
+    <img class="g-10 vert-move3" src="<?php echo get_template_directory_uri(); ?>/inc/king-images/veg_img22-removebg-preview.png" alt="">
+    <img class="g-11 vert-move3" src="<?php echo get_template_directory_uri(); ?>/inc/king-images/b_img4.png" alt="">
+    <img class="g-12 vert-move3" src="<?php echo get_template_directory_uri(); ?>/inc/king-images/veg_img15-removebg-preview.png" alt="">
+    <img class="g-13 vert-move3" src="<?php echo get_template_directory_uri(); ?>/inc/king-images/veg_img17-removebg-preview.png" alt="">
+    <img class="g-14 vert-move3" src="<?php echo get_template_directory_uri(); ?>/inc/king-images/veg_img3-removebg-preview.png" alt="">
     <!-- Start Hero Section -->
     <div class="hero">
         <section id="Hero-Section" style="background-image: url(<?php echo get_template_directory_uri(); ?>/inc/king-images/bannernew.png);">

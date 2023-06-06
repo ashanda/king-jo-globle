@@ -50,38 +50,58 @@ do_action('woocommerce_archive_description');
 <?php
 if (woocommerce_product_loop()) {
 
-	/**
-	 * Hook: woocommerce_before_shop_loop.
-	 *
-	 * @hooked woocommerce_output_all_notices - 10
-	 * @hooked woocommerce_result_count - 20
-	 * @hooked woocommerce_catalog_ordering - 30
-	 */
-	do_action('woocommerce_before_shop_loop');
+?>
+<div class="shop-cards">
+<div class="row natu prod_sec">
+		<?php
+		$products = wc_get_products(array(
+			'limit' => 8, // Retrieve 8 products
+		));
 
-	woocommerce_product_loop_start();
+		foreach ($products as $product) {
+			$image_id = $product->get_image_id();
+			$image_url = wp_get_attachment_image_url($image_id, 'full');
+			$product_name = $product->get_name();
+			$product_price = $product->get_price_html();
+			$product_permalink = $product->get_permalink();
+		?>
+			<div class="column mb-2 nature">
+				<div class="items-details">
+					<div class="item-name">
+						<span class="name-s">VEGAN</span>
+					</div>
+					<div class="item-price">
+						<span class="price-p">-27%</span>
+					</div>
+				</div>
+				<div class="content mt-5">
+					<div class="img_wrap">
+						<img class="content-img" src="<?php echo esc_url($image_url); ?>" alt="<?php echo esc_attr($product_name); ?>">
+					</div>
+					<div class="inner-content">
+						<div>
+							<h4><?php echo esc_html($product_name); ?></h4>
+							<p><?php echo $product_price; ?></p>
+						</div>
+						<?php if ($product->is_type('simple')) : ?>
+							<div class="btns two_btns">
+								<a class="main-button galley-grid-btn" href="<?php echo esc_url($product_permalink); ?>">View</a>
+								<?php echo do_shortcode('[add_to_cart id="' . $product->get_id() . '"]'); ?>
+							</div>
+						<?php else : ?>
+							<div class="btns">
+								<a class="main-button galley-grid-btn d-block" href="<?php echo esc_url($product_permalink); ?>">View</a>
+							</div>
+						<?php endif; ?>
+					</div>
+				</div>
+			</div>
+		<?php } ?>
+	</div>
+</div>
 
-	if (wc_get_loop_prop('total')) {
-		while (have_posts()) {
-			the_post();
+<?php
 
-			/**
-			 * Hook: woocommerce_shop_loop.
-			 */
-			do_action('woocommerce_shop_loop');
-
-			wc_get_template_part('content', 'product');
-		}
-	}
-
-	woocommerce_product_loop_end();
-
-	/**
-	 * Hook: woocommerce_after_shop_loop.
-	 *
-	 * @hooked woocommerce_pagination - 10
-	 */
-	do_action('woocommerce_after_shop_loop');
 } else {
 	/**
 	 * Hook: woocommerce_no_products_found.

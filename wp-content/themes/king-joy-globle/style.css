@@ -3695,10 +3695,25 @@ a.navbar-brand img {
 
 img.vert-move {
 	animation-name: mover;
-	animation-duration: 5s;
+	animation-duration: 4s;
 	animation-iteration-count: infinite;
 	animation-direction: alternate;
 }
+
+img.vert-move2 {
+	animation-name: mover;
+	animation-duration: 3.5s;
+	animation-iteration-count: infinite;
+	animation-direction: alternate;
+}
+
+img.vert-move3 {
+	animation-name: mover;
+	animation-duration: 3.5s;
+	animation-iteration-count: infinite;
+	animation-direction: alternate;
+}
+
 
 
 img.b-2 {
@@ -4523,15 +4538,17 @@ button.button.wp-element-button:hover {
     position: relative;
 }
 
-img.g-1.vert-move {
-    max-width: 77px;
+img.g-1.vert-move2 {
+    max-width: 156px;
     position: absolute;
-    top: 1611px;
-    left: 20px;
+    top: 1653px;
+    left: 54px;
+    z-index: 4;
     animation-delay: 500ms;
+    transform: rotate(505deg);
 }
 
-img.g-2.vert-move {
+img.g-2.vert-move2 {
     max-width: 98px;
     position: absolute;
     top: 1306px;
@@ -4542,7 +4559,7 @@ img.g-2.vert-move {
 	animation-delay: 700ms;
 }
 
-img.g-3.vert-move {
+img.g-3.vert-move2 {
     max-width: 100px;
     position: absolute;
     top: 1080px;
@@ -4552,7 +4569,7 @@ img.g-3.vert-move {
 	animation-delay: 900ms;
 }
 
-img.g-4.vert-move {
+img.g-4.vert-move2 {
     max-width: 91px;
     position: absolute;
     top: 1925px;
@@ -4561,7 +4578,7 @@ img.g-4.vert-move {
 	animation-delay: 1000ms;
 }
 
-img.g-5.vert-move {
+img.g-5.vert-move2 {
     max-width: 130px;
     position: absolute;
     top: 2460px;
@@ -4569,7 +4586,7 @@ img.g-5.vert-move {
 	animation-delay: 1500ms;
 }
 
-img.g-6.vert-move {
+img.g-6.vert-move2 {
     max-width: 116px;
     position: absolute;
     top: 2759px;
@@ -4579,7 +4596,7 @@ img.g-6.vert-move {
 	animation-delay: 2000ms;
 }
 
-img.g-7.vert-move {
+img.g-7.vert-move2 {
     max-width: 124px;
     position: absolute;
     top: 2895px;
@@ -4587,7 +4604,7 @@ img.g-7.vert-move {
 	animation-delay: 2400ms;
 }
 
-img.g-8.vert-move {
+img.g-8.vert-move3 {
     max-width: 73px;
     position: absolute;
     top: 317px;
@@ -4597,7 +4614,7 @@ img.g-8.vert-move {
 	animation-delay: 2800ms;
 }
 
-img.g-9.vert-move {
+img.g-9.vert-move3 {
     max-width: 90px;
     position: absolute;
     top: 3200px;
@@ -4606,7 +4623,7 @@ img.g-9.vert-move {
 	animation-delay: 3000ms;
 }
 
-img.g-10.vert-move {
+img.g-10.vert-move3 {
     max-width: 81px;
     position: absolute;
     top: 3727px;
@@ -4616,17 +4633,18 @@ img.g-10.vert-move {
 	animation-delay: 3500ms;
 }
 
-img.g-11.vert-move {
-    max-width: 101px;
-    top: 3913px;
+img.g-11.vert-move3 {
+    max-width: 147px;
+    top: 3933px;
     position: absolute;
     left: 151px;
     z-index: 2;
     opacity: 0.56;
-	animation-delay: 4000ms;
+    animation-delay: 4000ms;
+    transform: rotate(129deg);
 }
 
-img.g-12.vert-move {
+img.g-12.vert-move3 {
     position: absolute;
     top: 4160px;
     max-width: 96px;
@@ -4634,7 +4652,7 @@ img.g-12.vert-move {
 	animation-delay: 5000ms;
 }
 
-img.g-13.vert-move {
+img.g-13.vert-move3 {
     max-width: 100px;
     position: absolute;
     top: 4502px;
@@ -4643,7 +4661,7 @@ img.g-13.vert-move {
 	animation-delay: 5500ms;
 }
 
-img.g-14.vert-move {
+img.g-14.vert-move3 {
     max-width: 96px;
     position: absolute;
     bottom: -210px;
@@ -4711,7 +4729,59 @@ li.product.type-product:hover {
     margin-bottom: 40px;
 }
 
+.two_btns .main-button {
+	border-top-right-radius: 0px;
+	border-bottom-right-radius: 0px;
+}
 
+.woocommerce-shop a.button.wp-element-button.product_type_simple.add_to_cart_button.ajax_add_to_cart{
+	border-top-left-radius: 0px;
+	border-bottom-left-radius: 0px;
+}
+
+a.button.wp-element-button.product_type_simple.add_to_cart_button.ajax_add_to_cart {
+    background: #FDC92E;
+    border-radius: 28px;
+    padding: 15px 32px;
+    font-size: 15px;
+}
+
+a.button.wp-element-button.product_type_simple{
+	background: #FDC92E;
+    border-radius: 28px;
+    padding: 15px 32px;
+    font-size: 15px;
+	border-top-left-radius: 0px;
+	border-bottom-left-radius: 0px;
+}
+
+.shop-cards {
+    margin-left: 100px;
+    margin-right: 100px;
+    margin-top: 80px;
+    margin-bottom: 50px;
+}
+
+.woocommerce-shop .column.nature .name-s {
+    top: 10px;
+}
+
+.woocommerce-shop .column.nature .items-details span.price-p, .column.cars .items-details span.price-p, .column.people .items-details span.price-p {
+    top: 10px;
+}
+
+.woocommerce-checkout main#primary {
+    padding-top: 160px;
+}
+
+.woocommerce-checkout h1.entry-title {
+    font-size: 40px;
+    text-align: center;
+    background: #129C51;
+    padding: 0px;
+    padding-bottom: 7px;
+    margin-bottom: 33px;
+}
 
 /* New styles June 5 */
 
