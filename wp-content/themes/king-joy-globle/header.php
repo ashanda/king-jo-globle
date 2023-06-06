@@ -83,7 +83,7 @@
                                 <li><a class="fw-bold text-white" href="tel:+94123456789"><i class="fas fa-mobile-alt me-2" aria-hidden="true"></i>
                                         0123 456 789</a></li>
                                 <li class="shopping-items"><a class="text-white" href=""><i class="fas fa-heart"></i></a></li>
-                                <li><a class="text-white" href=""><i class="fas fa-shopping-bag"></i></a></li>
+                                <li><a class="text-white" href="cart"><i class="fas fa-shopping-bag"></i></a></li>
                             </ul>
 
                         </div>

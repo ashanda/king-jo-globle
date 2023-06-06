@@ -122,11 +122,12 @@
     $('.owl-carousel').owlCarousel({
         loop: true,
         autoplay: true,
+        autoplayTimeout:5000,
         margin: 10,
         center: true,
         animateOut: 'fadeOut',
         animateIn: 'fadeIn',
-        slideSpeed: 3000,
+        slideSpeed: 5000,
         responsiveClass: true,
         responsive: {
             0: {
@@ -143,7 +144,10 @@
                 loop: true
             }
         }
-    })
+        
+    });
+
+   
 </script>
 
 <script src="<?php echo get_template_directory_uri(); ?>/inc/script.js"></script>

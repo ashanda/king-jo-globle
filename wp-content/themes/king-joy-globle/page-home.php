@@ -7,20 +7,20 @@ get_header();  ?>
 
 <div class="full-content-sub">
 
-    <img class="g-1 vert-move2" src="<?php echo get_template_directory_uri(); ?>/inc/king-images/b_img3.png" alt="">
-    <img class="g-2 vert-move2" src="<?php echo get_template_directory_uri(); ?>/inc/king-images/veg_img12-removebg-preview.png" alt="">
-    <img class="g-3 vert-move2" src="<?php echo get_template_directory_uri(); ?>/inc/king-images/veg_img6-removebg-preview.png" alt="">
-    <img class="g-4 vert-move2" src="<?php echo get_template_directory_uri(); ?>/inc/king-images/veg_img13-removebg-preview.png" alt="">
-    <img class="g-5 vert-move2" src="<?php echo get_template_directory_uri(); ?>/inc/king-images/veg_img15-removebg-preview.png" alt="">
-    <img class="g-6 vert-move2" src="<?php echo get_template_directory_uri(); ?>/inc/king-images/veg_img16-removebg-preview.png" alt="">
-    <img class="g-7 vert-move2" src="<?php echo get_template_directory_uri(); ?>/inc/king-images/veg_img5-removebg-preview.png" alt="">
-    <img class="g-8 vert-move3" src="<?php echo get_template_directory_uri(); ?>/inc/king-images/veg_img11-removebg-preview.png" alt="">
-    <img class="g-9 vert-move3" src="<?php echo get_template_directory_uri(); ?>/inc/king-images/veg_img20-removebg-preview.png" alt="">
-    <img class="g-10 vert-move3" src="<?php echo get_template_directory_uri(); ?>/inc/king-images/veg_img22-removebg-preview.png" alt="">
-    <img class="g-11 vert-move3" src="<?php echo get_template_directory_uri(); ?>/inc/king-images/b_img4.png" alt="">
-    <img class="g-12 vert-move3" src="<?php echo get_template_directory_uri(); ?>/inc/king-images/veg_img15-removebg-preview.png" alt="">
-    <img class="g-13 vert-move3" src="<?php echo get_template_directory_uri(); ?>/inc/king-images/veg_img17-removebg-preview.png" alt="">
-    <img class="g-14 vert-move3" src="<?php echo get_template_directory_uri(); ?>/inc/king-images/veg_img3-removebg-preview.png" alt="">
+    <img class="g-1" data-scroll-speed="1" src="<?php echo get_template_directory_uri(); ?>/inc/king-images/b_img3.png" alt="">
+    <img class="g-2" data-scroll-speed="1" src="<?php echo get_template_directory_uri(); ?>/inc/king-images/veg_img12-removebg-preview.png" alt="">
+    <img class="g-3" data-scroll-speed="1" src="<?php echo get_template_directory_uri(); ?>/inc/king-images/kiwi.png" alt="">
+    <img class="g-4" data-scroll-speed="1" src="<?php echo get_template_directory_uri(); ?>/inc/king-images/veg_img13-removebg-preview.png" alt="">
+    <img class="g-5" data-scroll-speed="1" src="<?php echo get_template_directory_uri(); ?>/inc/king-images/veg_img15-removebg-preview.png" alt="">
+    <img class="g-6" data-scroll-speed="2" src="<?php echo get_template_directory_uri(); ?>/inc/king-images/bloodorange.png" alt="">
+    <img class="g-7" data-scroll-speed="2" src="<?php echo get_template_directory_uri(); ?>/inc/king-images/blueberry.png" alt="">
+    <img class="g-8" data-scroll-speed="2" src="<?php echo get_template_directory_uri(); ?>/inc/king-images/veg_img11-removebg-preview.png" alt="">
+    <img class="g-9" data-scroll-speed="2" src="<?php echo get_template_directory_uri(); ?>/inc/king-images/veg_img20-removebg-preview.png" alt="">
+    <img class="g-10" data-scroll-speed="2" src="<?php echo get_template_directory_uri(); ?>/inc/king-images/b_img4.png" alt="">
+    <img class="g-11" data-scroll-speed="1" src="<?php echo get_template_directory_uri(); ?>/inc/king-images/b_img4.png" alt="">
+    <img class="g-12" data-scroll-speed="1" src="<?php echo get_template_directory_uri(); ?>/inc/king-images/veg_img15-removebg-preview.png" alt="">
+    <img class="g-13" data-scroll-speed="1" src="<?php echo get_template_directory_uri(); ?>/inc/king-images/b_img3.png" alt="">
+    <img class="g-14" data-scroll-speed="1" src="<?php echo get_template_directory_uri(); ?>/inc/king-images/b-img2.png" alt="">
     <!-- Start Hero Section -->
     <div class="hero">
         <section id="Hero-Section" style="background-image: url(<?php echo get_template_directory_uri(); ?>/inc/king-images/bannernew.png);">
@@ -126,13 +126,13 @@ get_header();  ?>
             <div class="container center-area">
                 <div class="owl-carousel owl-theme">
                     <div class="item">
-                        <img class="w-100" src="<?php echo get_template_directory_uri(); ?>/inc/king-images/veg_pack.png" alt="">
+                        <img class="w-100" src="<?php echo get_template_directory_uri(); ?>/inc/king-images/pngwing 1.png" alt="">
                     </div>
                     <div class="item">
-                        <img class="w-100" src="<?php echo get_template_directory_uri(); ?>/inc/king-images/veg_pack.png" alt="">
+                        <img class="w-100" src="<?php echo get_template_directory_uri(); ?>/inc/king-images/pngwing 3.png" alt="">
                     </div>
                     <div class="item">
-                        <img class="w-100" src="<?php echo get_template_directory_uri(); ?>/inc/king-images/veg_pack.png" alt="">
+                        <img class="w-100" src="<?php echo get_template_directory_uri(); ?>/inc/king-images/pngwing 1.png" alt="">
                     </div>
                 </div>
                 <!-- <div class="row center-area-items">
