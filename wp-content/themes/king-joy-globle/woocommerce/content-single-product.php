@@ -236,10 +236,10 @@ if (post_password_required()) {
 						</div>
 					</div> -->
 
-					<div class="whish">
+					<!-- <div class="whish">
 						<i class="far fa-heart"></i>
 						<p class="wishlist">Add to wishlist</p>
-					</div>
+					</div> -->
 
 					<div class="s-payment">
 						<p class="s-pay">100% Secured Payment</p>
@@ -260,16 +260,53 @@ if (post_password_required()) {
 </div>
 
 <div class="row des-related">
-	<?php
-	/**
-	 * Hook: woocommerce_after_single_product_summary.
-	 *
-	 * @hooked woocommerce_output_product_data_tabs - 10
-	 * @hooked woocommerce_upsell_display - 15
-	 * @hooked woocommerce_output_related_products - 20
-	 */
-	do_action('woocommerce_after_single_product_summary');
-	?>
+<div class="row natu prod_sec">
+		<?php
+		$products = wc_get_products(array(
+			'limit' => 8, // Retrieve 8 products
+		));
+
+		foreach ($products as $product) {
+			$image_id = $product->get_image_id();
+			$image_url = wp_get_attachment_image_url($image_id, 'full');
+			$product_name = $product->get_name();
+			$product_price = $product->get_price_html();
+			$product_permalink = $product->get_permalink();
+		?>
+			<div class="column mb-2 nature">
+				<div class="items-details">
+					<div class="item-name">
+						<span class="name-s">VEGAN</span>
+					</div>
+					<div class="item-price">
+						<span class="price-p">-27%</span>
+					</div>
+				</div>
+				<div class="content mt-5">
+					<div class="img_wrap">
+						<img class="content-img" src="<?php echo esc_url($image_url); ?>" alt="<?php echo esc_attr($product_name); ?>">
+					</div>
+					<div class="inner-content">
+						<div>
+							<h4><?php echo esc_html($product_name); ?></h4>
+							<p><?php echo $product_price; ?></p>
+						</div>
+						<?php if ($product->is_type('simple')) : ?>
+							<div class="btns two_btns">
+								<a class="main-button galley-grid-btn" href="<?php echo esc_url($product_permalink); ?>">View</a>
+								<?php echo do_shortcode('[add_to_cart id="' . $product->get_id() . '"]'); ?>
+							</div>
+						<?php else : ?>
+							<div class="btns">
+								<a class="main-button galley-grid-btn d-block" href="<?php echo esc_url($product_permalink); ?>">View</a>
+							</div>
+						<?php endif; ?>
+					</div>
+				</div>
+			</div>
+		<?php } ?>
+	</div>
+</div>
 </div>
 
 

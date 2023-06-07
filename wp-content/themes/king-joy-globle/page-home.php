@@ -38,7 +38,7 @@ get_header();  ?>
                             maximus metus eu eros tincidunt
                             <!-- <?php echo get_template_directory_uri(); ?>/incidunt -->
                         </P>
-                        <button class="main-button "><a href="shop">Shop Now</a></button>
+                        <button class="main-button shp-now"><a href="shop">Shop Now</a></button>
                         <img class="h-2" data-scroll-speed="4" src="<?php echo get_template_directory_uri(); ?>/inc/king-images/Orange.png" alt="">
                         <img class="h-3" data-scroll-speed="8" src="<?php echo get_template_directory_uri(); ?>/inc/king-images/Mint.png" alt="">
                     </div>

@@ -2601,8 +2601,6 @@ section.related.products {
 		max-width: 100%;
 	}
 
-
-
 	.ab-s-des {
 		width: 300px;
 	}
@@ -3684,9 +3682,6 @@ section.related.products {
 		top: 43%;
 		left: 35%;
 	}
-
-
-
 }
 
 /* New Styles Kasun */
@@ -3989,6 +3984,10 @@ button.single_add_to_cart_button.button.alt.wp-element-button {
 img.ab-ic.vert-move {
 	animation-delay: -2s;
 	transform: rotate(0);
+}
+
+p#billing_address_2_field {
+    padding-top: 35px;
 }
 
 
@@ -4662,14 +4661,14 @@ img.g-10 {
 }
 
 img.g-11 {
-	max-width: 147px;
-	top: 2500px;
-	position: absolute;
-	left: 360px;
-	z-index: 2;
-	opacity: 0.56;
-	transform: rotate(129deg);
-	animation-delay: 11s;
+    max-width: 146px;
+    top: 2500px;
+    position: absolute;
+    left: 393px;
+    z-index: 2;
+    opacity: 0.56;
+    transform: rotate(129deg);
+    animation-delay: 11s;
 }
 
 img.g-12 {
@@ -4948,6 +4947,31 @@ img.card-img-top:hover {
 h5.card-title:hover {
 	color: #0E8E49;
 }
+
+.single-product a.button.wp-element-button.product_type_simple.add_to_cart_button.ajax_add_to_cart {
+    border-top-left-radius: 0px;
+    border-bottom-left-radius: 0px;
+}
+
+.single-product .row.des-related {
+    margin: 70px 70px;
+    /* padding: 40px 40px; */
+    margin-left: 70px !important;
+    margin-right: 70px !important;
+}
+
+.single-product .item-name {
+    padding-top: 20px;
+}
+
+.single-product .item-price {
+    padding-top: 20px;
+}
+
+.single-product .btns.two_btns {
+    margin-bottom: 20px;
+}
+
 
 @media (min-width: 991px) {
 	.slider-area .wrapper {
@@ -5230,6 +5254,25 @@ h5.card-title:hover {
 
 	p.text-center.w-responsive.mx-auto.mb-3 {
 		padding: 0px 7px;
+	}
+
+	button.main-button.shp-now {
+		position: absolute;
+		top: 235px;
+	}
+
+	.page-template-page-home span.price-p {
+		top: 17px;
+	}
+
+	.single-product .row.des-related {
+		margin-left: 10px !important;
+		margin-right: 10px !important;
+		margin-top: 0px;
+	}
+
+	.single-product .item-name {
+		padding-top: 10px;
 	}
 
 }
